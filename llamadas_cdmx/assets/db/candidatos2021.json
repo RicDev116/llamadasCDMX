@@ -1,0 +1,677 @@
+[
+  {
+    "alcaldia_id": 10,
+    "alcaldia": "ÁLVARO OBREGÓN",
+    "candidato": "Eduardo Santillán Pérez de Juntos hacemos historia Ciudad de México (PT-MORENA)"
+  },
+  {
+    "alcaldia_id": 10,
+    "alcaldia": "ÁLVARO OBREGÓN",
+    "candidato": "Francisco Jesús Estevez Cuevas del Partido Equidad Libertad Y Género "
+  },
+  {
+    "alcaldia_id": 10,
+    "alcaldia": "ÁLVARO OBREGÓN",
+    "candidato": "Jorgina Gaxiola Lezama de Movimiento Ciudadano"
+  },
+  {
+    "alcaldia_id": 10,
+    "alcaldia": "ÁLVARO OBREGÓN",
+    "candidato": " Leslie Staines Formoso del Partido Fuerza por México "
+  },
+  {
+    "alcaldia_id": 10,
+    "alcaldia": "ÁLVARO OBREGÓN",
+    "candidato": "Lía Limón García  de Va por México (PRI,PAN, PRD) "
+  },
+  {
+    "alcaldia_id": 10,
+    "alcaldia": "ÁLVARO OBREGÓN",
+    "candidato": "Marisela Padilla Trassancos de Redes Sociales Progresistas (RSP, REDES) "
+  },
+  {
+    "alcaldia_id": 10,
+    "alcaldia": "ÁLVARO OBREGÓN",
+    "candidato": "Rubén Zurisadai Enriquez Flores delPartido Encuentro Solidario "
+  },
+  {
+    "alcaldia_id": 10,
+    "alcaldia": "ÁLVARO OBREGÓN",
+    "candidato": "Ángel García Pérez, Independiente"
+  },
+  {
+    "alcaldia_id": 2,
+    "alcaldia": "AZCAPOTZALCO",
+    "candidato": "Dinorah Guadalupe Salazar Hernández del Partido Verde Ecologista de México (PVEM) "
+  },
+  {
+    "alcaldia_id": 2,
+    "alcaldia": "AZCAPOTZALCO",
+    "candidato": "Connie Rosanely Alavez Luna del Partido Encuentro Solidario"
+  },
+  {
+    "alcaldia_id": 2,
+    "alcaldia": "AZCAPOTZALCO",
+    "candidato": "uan Antonio Salinas Almaguer del Partido Equidad Libertad Y Género"
+  },
+  {
+    "alcaldia_id": 2,
+    "alcaldia": "AZCAPOTZALCO",
+    "candidato": "Luisa Yanira Alpizar Castellanos del Partido Fuerza por México"
+  },
+  {
+    "alcaldia_id": 2,
+    "alcaldia": "AZCAPOTZALCO",
+    "candidato": "Margarita Saldaña  de Va por México (PRI,PAN, PRD)"
+  },
+  {
+    "alcaldia_id": 2,
+    "alcaldia": "AZCAPOTZALCO",
+    "candidato": "María Enriqueta Torres Ramírez de Redes Sociales Progresistas (RSP, REDES) "
+  },
+  {
+    "alcaldia_id": 2,
+    "alcaldia": "AZCAPOTZALCO",
+    "candidato": "Vidal Llerenas Morales  de Juntos hacemos historia Ciudad de México (PT-MORENA)"
+  },
+  {
+    "alcaldia_id": 2,
+    "alcaldia": "AZCAPOTZALCO",
+    "candidato": "Yuritza Solís Ponce  de Movimiento Ciudadano"
+  },
+  {
+    "alcaldia_id": 14,
+    "alcaldia": "BENITO JUÁREZ",
+    "candidato": "Adriana Cameraz Hernández del Partido de la Revolución Democrática (PRD)"
+  },
+  {
+    "alcaldia_id": 14,
+    "alcaldia": "BENITO JUÁREZ",
+    "candidato": "Araceli Alvarez Martín del Partido Fuerza por México "
+  },
+  {
+    "alcaldia_id": 14,
+    "alcaldia": "BENITO JUÁREZ",
+    "candidato": "Carlos Corral Serrano del Partido Encuentro Solidario"
+  },
+  {
+    "alcaldia_id": 14,
+    "alcaldia": "BENITO JUÁREZ",
+    "candidato": "Ivonne Teresa Yasmín Corral Vicente del Partido Verde Ecologista de México (PVEM) "
+  },
+  {
+    "alcaldia_id": 14,
+    "alcaldia": "BENITO JUÁREZ",
+    "candidato": "Marte Manuel Marte Quezada del Partido Equidad Libertad Y Género "
+  },
+  {
+    "alcaldia_id": 14,
+    "alcaldia": "BENITO JUÁREZ",
+    "candidato": "Paula Soto Maldonado de Juntos hacemos historia Ciudad de México (PT-MORENA) "
+  },
+  {
+    "alcaldia_id": 14,
+    "alcaldia": "BENITO JUÁREZ",
+    "candidato": "Rodrigo Cordera Thacker de Movimiento Ciudadano "
+  },
+  {
+    "alcaldia_id": 14,
+    "alcaldia": "BENITO JUÁREZ",
+    "candidato": "Santiago Taboada Cortina del Partido Acción Nacional (PAN)"
+  },
+  {
+    "alcaldia_id": 14,
+    "alcaldia": "BENITO JUÁREZ",
+    "candidato": "Yazmín García Gómez de Redes Sociales Progresistas (RSP, REDES)"
+  },
+  {
+    "alcaldia_id": 3,
+    "alcaldia": "COYOACÁN",
+    "candidato": "Patricia Urriza Arellano de Movimiento Ciudadano "
+  },
+  {
+    "alcaldia_id": 3,
+    "alcaldia": "COYOACÁN",
+    "candidato": "Adriana Fabiola Poblano Ramos del Partido Equidad Libertad Y Género "
+  },
+  {
+    "alcaldia_id": 3,
+    "alcaldia": "COYOACÁN",
+    "candidato": " Alonso Castillo Pérez de Juntos hacemos historia Ciudad de México (PT-MORENA) "
+  },
+  {
+    "alcaldia_id": 3,
+    "alcaldia": "COYOACÁN",
+    "candidato": "Cynthia Barrios García del Partido Encuentro Solidario (PES)"
+  },
+  {
+    "alcaldia_id": 3,
+    "alcaldia": "COYOACÁN",
+    "candidato": "Gerardo Luis Castillo Alcalá del Partido Verde Ecologista de México (PVEM)"
+  },
+  {
+    "alcaldia_id": 3,
+    "alcaldia": "COYOACÁN",
+    "candidato": "José Giovanni Gutiérrez Aguilar de Va por Ciudad de México (PRI,PAN, PRD) "
+  },
+  {
+    "alcaldia_id": 3,
+    "alcaldia": "COYOACÁN",
+    "candidato": "Karen Lizbeth Preciado Guerrero de Redes Sociales Progresistas (RSP, REDES)"
+  },
+  {
+    "alcaldia_id": 3,
+    "alcaldia": "COYOACÁN",
+    "candidato": "Miroslava Magaña Díaz del Partido Fuerza por México"
+  },
+  {
+    "alcaldia_id": 4,
+    "alcaldia": "CUAJIMALPA",
+    "candidato": "Adriana Duarte Yépez de Partido Fuerza por México "
+  },
+  {
+    "alcaldia_id": 4,
+    "alcaldia": "CUAJIMALPA",
+    "candidato": "Adrián Rubalcava Suárez de Va por México (PRI,PAN, PRD)"
+  },
+  {
+    "alcaldia_id": 4,
+    "alcaldia": "CUAJIMALPA",
+    "candidato": "Estefania de Garay Caballero de Movimiento Ciudadano"
+  },
+  {
+    "alcaldia_id": 4,
+    "alcaldia": "CUAJIMALPA",
+    "candidato": "Francisco Saldívar de Juntos hacemos historia Ciudad de México (PT-MORENA)"
+  },
+  {
+    "alcaldia_id": 4,
+    "alcaldia": "CUAJIMALPA",
+    "candidato": "Hugo Luna Ferráez de Redes Sociales Progresistas (RSP, REDES)"
+  },
+  {
+    "alcaldia_id": 4,
+    "alcaldia": "CUAJIMALPA",
+    "candidato": "Miguel Ángel Sarabia Zaldívar del Partido Verde Ecologista de México (PVEM)"
+  },
+  {
+    "alcaldia_id": 4,
+    "alcaldia": "CUAJIMALPA",
+    "candidato": "Julio Colín Mendoza del Partido Equidad Libertad Y Género"
+  },
+  {
+    "alcaldia_id": 4,
+    "alcaldia": "CUAJIMALPA",
+    "candidato": "Susana González Cueto Martínez del Partido Encuentro Solidario"
+  },
+  {
+    "alcaldia_id": 15,
+    "alcaldia": "CUAUHTEMOC",
+    "candidato": "Angelica Lizbeth Bravo Bonilla  del Partido Verde Ecologista de México (PVEM)"
+  },
+  {
+    "alcaldia_id": 15,
+    "alcaldia": "CUAUHTEMOC",
+    "candidato": "Edgardo Iram Cerda Martínez del Partido Fuerza por México"
+  },
+  {
+    "alcaldia_id": 15,
+    "alcaldia": "CUAUHTEMOC",
+    "candidato": "Esaú Miguel Flores Tapia de Redes Sociales Progresistas (RSP, REDES) "
+  },
+  {
+    "alcaldia_id": 15,
+    "alcaldia": "CUAUHTEMOC",
+    "candidato": "Itzel Viridiana Cabral Soto del Partido Encuentro Solidario "
+  },
+  {
+    "alcaldia_id": 15,
+    "alcaldia": "CUAUHTEMOC",
+    "candidato": "Marco Antonio Ignacio Rascón Córdova de Movimiento Ciudadano "
+  },
+  {
+    "alcaldia_id": 15,
+    "alcaldia": "CUAUHTEMOC",
+    "candidato": "María Dolores Padierna Luna de Juntos hacemos historia Ciudad de México (PT-MORENA)"
+  },
+  {
+    "alcaldia_id": 15,
+    "alcaldia": "CUAUHTEMOC",
+    "candidato": "Norma Luz de la Concha Gálvez  de Partido Equidad Libertad Y Género "
+  },
+  {
+    "alcaldia_id": 15,
+    "alcaldia": "CUAUHTEMOC",
+    "candidato": "Sandra Xantall Cuevas Nieves de Va por México (PRI,PAN, PRD)"
+  },
+  {
+    "alcaldia_id": 15,
+    "alcaldia": "CUAUHTEMOC",
+    "candidato": "Rafael Guarneros Saldaña, Independiente"
+  },
+  {
+    "alcaldia_id": 5,
+    "alcaldia": "GUSTAVO A. MADERO",
+    "candidato": "Aida Arregui Guerrero del Partido Encuentro Solidario (PES)"
+  },
+  {
+    "alcaldia_id": 5,
+    "alcaldia": "GUSTAVO A. MADERO",
+    "candidato": "Marìa Alejandra Cierra Salce \"Alexx Cierra\" del Partido Equidad Libertad Y Género"
+  },
+  {
+    "alcaldia_id": 5,
+    "alcaldia": "GUSTAVO A. MADERO",
+    "candidato": "Diana Lorena Gómez Guerrero del Partido Verde Ecologista de México (PVEM)"
+  },
+  {
+    "alcaldia_id": 5,
+    "alcaldia": "GUSTAVO A. MADERO",
+    "candidato": "Fernando Gómez Rodríguez de Fuerza por México"
+  },
+  {
+    "alcaldia_id": 5,
+    "alcaldia": "GUSTAVO A. MADERO",
+    "candidato": "Francisco Chíguil Figueroa de Juntos hacemos historia Ciudad de México (PT, MORENA)"
+  },
+  {
+    "alcaldia_id": 5,
+    "alcaldia": "GUSTAVO A. MADERO",
+    "candidato": "Gloria Sotelo Salazar de Movimiento Ciudadano"
+  },
+  {
+    "alcaldia_id": 5,
+    "alcaldia": "GUSTAVO A. MADERO",
+    "candidato": "María del Carmen Pacheco Gamiño de Va por México (PAN, PRI, PRD)"
+  },
+  {
+    "alcaldia_id": 5,
+    "alcaldia": "GUSTAVO A. MADERO",
+    "candidato": "Toshimi Jacob Hira Ugalde \"Toshi\", del Partido Redes Sociales Progresistas (RSP, REDES)"
+  },
+  {
+    "alcaldia_id": 5,
+    "alcaldia": "GUSTAVO A. MADERO",
+    "candidato": "Raúl Ojeda Parada, Independiente"
+  },
+  {
+    "alcaldia_id": 6,
+    "alcaldia": "IZTACALCO",
+    "candidato": "Clotilde Moreno Sánchez del Partido Fuerza por México"
+  },
+  {
+    "alcaldia_id": 6,
+    "alcaldia": "IZTACALCO",
+    "candidato": "Daniel Ordoñez Hernández del Partido Acción Nacional (PAN)"
+  },
+  {
+    "alcaldia_id": 6,
+    "alcaldia": "IZTACALCO",
+    "candidato": "Irma Fabiola Bautista Guzmán  del (PRI, PRD) "
+  },
+  {
+    "alcaldia_id": 6,
+    "alcaldia": "IZTACALCO",
+    "candidato": "Joana Olivia Marín Salazar de Redes Sociales Progresistas (RSP, REDES)"
+  },
+  {
+    "alcaldia_id": 6,
+    "alcaldia": "IZTACALCO",
+    "candidato": "Omar Gastón Gutiérrez Olvera del Partido Encuentro Solidario "
+  },
+  {
+    "alcaldia_id": 6,
+    "alcaldia": "IZTACALCO",
+    "candidato": "Evangelina Aurora Guerrero Torres del Partido Equidad Libertad Y Género"
+  },
+  {
+    "alcaldia_id": 6,
+    "alcaldia": "IZTACALCO",
+    "candidato": "Rafael Márquez Méndez del Partido Verde Ecologista de México (PVEM)) "
+  },
+  {
+    "alcaldia_id": 6,
+    "alcaldia": "IZTACALCO",
+    "candidato": "Raúl Armando Quintero Martínez de Juntos hacemos historia Ciudad de México (PT-MORENA) "
+  },
+  {
+    "alcaldia_id": 6,
+    "alcaldia": "IZTACALCO",
+    "candidato": "Sandra  Díaz Zacarías de Movimiento Ciudadano "
+  },
+  {
+    "alcaldia_id": 6,
+    "alcaldia": "IZTACALCO",
+    "candidato": "Pablo Raúl Moreno Carrión, Independiente"
+  },
+  {
+    "alcaldia_id": 7,
+    "alcaldia": "IZTAPALAPA",
+    "candidato": "Alejandro Jaime Rueda Valencia del Partido Equidad Libertad Y Género "
+  },
+  {
+    "alcaldia_id": 7,
+    "alcaldia": "IZTAPALAPA",
+    "candidato": "Clara Marina Brugada Molina de Juntos hacemos historia Ciudad de México (PT-MORENA)"
+  },
+  {
+    "alcaldia_id": 7,
+    "alcaldia": "IZTAPALAPA",
+    "candidato": "Héctor Edmundo Hernández Fuentes \"El Bigotes\" de Redes Sociales Progresistas (RSP, REDES)"
+  },
+  {
+    "alcaldia_id": 7,
+    "alcaldia": "IZTAPALAPA",
+    "candidato": "Iván Rebollar Reyes del Partido Verde Ecologista de México (PVEM) "
+  },
+  {
+    "alcaldia_id": 7,
+    "alcaldia": "IZTAPALAPA",
+    "candidato": "Jazmín Teresa Curiel  de Va por México (PRI,PAN, PRD)"
+  },
+  {
+    "alcaldia_id": 7,
+    "alcaldia": "IZTAPALAPA",
+    "candidato": "Joel David Santiago Villa de Movimiento Ciudadano"
+  },
+  {
+    "alcaldia_id": 7,
+    "alcaldia": "IZTAPALAPA",
+    "candidato": "Rafael Ponfilio Acosta Ángeles del Partido Fuerza por México"
+  },
+  {
+    "alcaldia_id": 7,
+    "alcaldia": "IZTAPALAPA",
+    "candidato": "Víctor Manuel Valle Martínez  del Partido Encuentro Solidario"
+  },
+  {
+    "alcaldia_id": 8,
+    "alcaldia": "MAGDALENA CONTRERAS",
+    "candidato": "Alicia Amalia Sobrado González de Partido Encuentro Solidario)"
+  },
+  {
+    "alcaldia_id": 8,
+    "alcaldia": "MAGDALENA CONTRERAS",
+    "candidato": " León Dionisio Motte Chávez de Partido Fuerza por México "
+  },
+  {
+    "alcaldia_id": 8,
+    "alcaldia": "MAGDALENA CONTRERAS",
+    "candidato": " Luis Gerardo Quijano Morales de Va por México (PRI,PAN, PRD) "
+  },
+  {
+    "alcaldia_id": 8,
+    "alcaldia": "MAGDALENA CONTRERAS",
+    "candidato": "María de las Nieves Villalobos Pérez de Movimiento Ciudadano "
+  },
+  {
+    "alcaldia_id": 8,
+    "alcaldia": "MAGDALENA CONTRERAS",
+    "candidato": "Miriam Hernández Sánchez de Redes Sociales Progresistas (RSP, REDES)"
+  },
+  {
+    "alcaldia_id": 8,
+    "alcaldia": "MAGDALENA CONTRERAS",
+    "candidato": "Patricia Jimena Ortiz Couturier de Juntos hacemos historia Ciudad de México (PT-MORENA) "
+  },
+  {
+    "alcaldia_id": 8,
+    "alcaldia": "MAGDALENA CONTRERAS",
+    "candidato": "Santiago Octavio Soltero Alvarado del Partido Equidad Libertad Y Género "
+  },
+  {
+    "alcaldia_id": 16,
+    "alcaldia": "MIGUEL HIDALGO",
+    "candidato": "Cinthya Fernanda Acosta Sánchez de Redes Sociales Progresistas (RSP, REDES)"
+  },
+  {
+    "alcaldia_id": 16,
+    "alcaldia": "MIGUEL HIDALGO",
+    "candidato": "José Manuel Nava Castro del Partido Fuerza por México"
+  },
+  {
+    "alcaldia_id": 16,
+    "alcaldia": "MIGUEL HIDALGO",
+    "candidato": "Hazel Mayrell Singleton Rueda de Partido Equidad Libertad Y Género"
+  },
+  {
+    "alcaldia_id": 16,
+    "alcaldia": "MIGUEL HIDALGO",
+    "candidato": "Mauricio Tabe de Va por México (PRI,PAN, PRD)"
+  },
+  {
+    "alcaldia_id": 16,
+    "alcaldia": "MIGUEL HIDALGO",
+    "candidato": "Roberto Carlos Reyes Gamiz del Partido Encuentro Solidario"
+  },
+  {
+    "alcaldia_id": 16,
+    "alcaldia": "MIGUEL HIDALGO",
+    "candidato": "Teresa Guadalupe Vale Castilla de Movimiento Ciudadano "
+  },
+  {
+    "alcaldia_id": 16,
+    "alcaldia": "MIGUEL HIDALGO",
+    "candidato": "Víctor Hugo Romo de Vivar Guerra Juntos hacemos historia Ciudad de México (PT-MORENA)"
+  },
+  {
+    "alcaldia_id": 16,
+    "alcaldia": "MIGUEL HIDALGO",
+    "candidato": "Eduardo Contró Rodríguez, Independiente "
+  },
+  {
+    "alcaldia_id": 16,
+    "alcaldia": "MIGUEL HIDALGO",
+    "candidato": "Eduardo Virgilio Farah Arelle, Independiente"
+  },
+  {
+    "alcaldia_id": 9,
+    "alcaldia": "MILPA ALTA",
+    "candidato": "Noemi Galicia Meza del Partido Equidad Libertad Y Género "
+  },
+  {
+    "alcaldia_id": 9,
+    "alcaldia": "MILPA ALTA",
+    "candidato": "Abdul Ramos Ramos de Redes Sociales Progresistas (RSP, REDES) "
+  },
+  {
+    "alcaldia_id": 9,
+    "alcaldia": "MILPA ALTA",
+    "candidato": "Alicia Ana Lilia Robles Acevedo de Va por México (PRI,PAN, PRD) "
+  },
+  {
+    "alcaldia_id": 9,
+    "alcaldia": "MILPA ALTA",
+    "candidato": "Cuauhtemoc Martínez Laguna del Partido Fuerza por México "
+  },
+  {
+    "alcaldia_id": 9,
+    "alcaldia": "MILPA ALTA",
+    "candidato": "Arturo Ferrer Retana del Partido Encuentro Solidario "
+  },
+  {
+    "alcaldia_id": 9,
+    "alcaldia": "MILPA ALTA",
+    "candidato": "Efrén Ibañez Olvera de Movimiento Ciudadano"
+  },
+  {
+    "alcaldia_id": 9,
+    "alcaldia": "MILPA ALTA",
+    "candidato": "Judith Vanegas Tapia de Juntos hacemos historia Ciudad de México (PT-MORENA)"
+  },
+  {
+    "alcaldia_id": 9,
+    "alcaldia": "MILPA ALTA",
+    "candidato": "Karla Valeria Gómez Blancas del Partido Verde Ecologista de México (PVEM) "
+  },
+  {
+    "alcaldia_id": 11,
+    "alcaldia": "TLÁHUAC",
+    "candidato": "Alejandro Durán Raña (PRI, PRD) "
+  },
+  {
+    "alcaldia_id": 11,
+    "alcaldia": "TLÁHUAC",
+    "candidato": "Alejandro Morán Rojo \"Alex Morán\" (Redes Sociales Progresistas (RSP, REDES)) "
+  },
+  {
+    "alcaldia_id": 11,
+    "alcaldia": "TLÁHUAC",
+    "candidato": "Erika Jiménez Lazareno del Partido Equidad Libertad Y Género "
+  },
+  {
+    "alcaldia_id": 11,
+    "alcaldia": "TLÁHUAC",
+    "candidato": "Araceli Berenice Hernández Calderón (Juntos hacemos historia Ciudad de México (PT-MORENA)) "
+  },
+  {
+    "alcaldia_id": 11,
+    "alcaldia": "TLÁHUAC",
+    "candidato": "Héctor Jiménez Garcés (Partido Verde Ecologista de México (PVEM)) "
+  },
+  {
+    "alcaldia_id": 11,
+    "alcaldia": "TLÁHUAC",
+    "candidato": "Lesvia Gómez Melgar de Movimiento Ciudadano "
+  },
+  {
+    "alcaldia_id": 11,
+    "alcaldia": "TLÁHUAC",
+    "candidato": "Tómas Noguerón Martinez del Partido Encuentro Solidario"
+  },
+  {
+    "alcaldia_id": 11,
+    "alcaldia": "TLÁHUAC",
+    "candidato": "Nidia Martínez Molotla del Partido Acción Nacional (PAN) "
+  },
+  {
+    "alcaldia_id": 11,
+    "alcaldia": "TLÁHUAC",
+    "candidato": "Saúl Cruz Rodríguez del Partido Fuerza por México"
+  },
+  {
+    "alcaldia_id": 12,
+    "alcaldia": "TLALPAN",
+    "candidato": "Adolfo Llubere Sevilla de Partido Fuerza por México"
+  },
+  {
+    "alcaldia_id": 12,
+    "alcaldia": "TLALPAN",
+    "candidato": "Alfa Eliana González  de Va por México (PRI,PAN, PRD)"
+  },
+  {
+    "alcaldia_id": 12,
+    "alcaldia": "TLALPAN",
+    "candidato": "Alfredo Alejandro Escamilla Alfaro del Partido Encuentro Solidario"
+  },
+  {
+    "alcaldia_id": 12,
+    "alcaldia": "TLALPAN",
+    "candidato": "Gabriela Osorio Hernández de Juntos hacemos historia Ciudad de México (PT-MORENA) "
+  },
+  {
+    "alcaldia_id": 12,
+    "alcaldia": "TLALPAN",
+    "candidato": "Héctor Hugo Hernández Rodríguez de Movimiento Ciudadano)"
+  },
+  {
+    "alcaldia_id": 12,
+    "alcaldia": "TLALPAN",
+    "candidato": " Juan José Rodríguez Pérez de Redes Sociales Progresistas (RSP, REDES)"
+  },
+  {
+    "alcaldia_id": 12,
+    "alcaldia": "TLALPAN",
+    "candidato": "Paula Alejandra Pérez Córdova del Partido Verde Ecologista de México (PVEM)"
+  },
+  {
+    "alcaldia_id": 12,
+    "alcaldia": "TLALPAN",
+    "candidato": "Susana Granada Armas del Partido Equidad Libertad Y Género "
+  },
+  {
+    "alcaldia_id": 17,
+    "alcaldia": "VENUSTIANO CARRANZA",
+    "candidato": "José Antonio García Cruz del Partido Equidad Libertad Y Género"
+  },
+  {
+    "alcaldia_id": 17,
+    "alcaldia": "VENUSTIANO CARRANZA",
+    "candidato": "Evelyn Parra Álvarez de Juntos hacemos historia Ciudad de México (PT-MORENA)"
+  },
+  {
+    "alcaldia_id": 17,
+    "alcaldia": "VENUSTIANO CARRANZA",
+    "candidato": "Marytza Gómez Monforte del Partido Encuentro Solidario "
+  },
+  {
+    "alcaldia_id": 17,
+    "alcaldia": "VENUSTIANO CARRANZA",
+    "candidato": "Manuel Leal Navarro \"El Tinieblas\" de Redes Sociales Progresistas (RSP, REDES)"
+  },
+  {
+    "alcaldia_id": 17,
+    "alcaldia": "VENUSTIANO CARRANZA",
+    "candidato": "Mariana Mateos Ortega del Partido Fuerza por México "
+  },
+  {
+    "alcaldia_id": 17,
+    "alcaldia": "VENUSTIANO CARRANZA",
+    "candidato": "María Angélica Dueñas Pérez del Partido Verde Ecologista de México (PVEM)"
+  },
+  {
+    "alcaldia_id": 17,
+    "alcaldia": "VENUSTIANO CARRANZA",
+    "candidato": "Rocío Barrera Badillo de Va por México (PRI,PAN, PRD) "
+  },
+  {
+    "alcaldia_id": 17,
+    "alcaldia": "VENUSTIANO CARRANZA",
+    "candidato": "Zurishaday Hernández Hernández de Movimiento Ciudadano"
+  },
+  {
+    "alcaldia_id": 13,
+    "alcaldia": "XOCHIMILCO",
+    "candidato": "Alejandra Adriana Miranda Vega del Partido Fuerza por México "
+  },
+  {
+    "alcaldia_id": 13,
+    "alcaldia": "XOCHIMILCO",
+    "candidato": "Gabriel del Monte Rosales de Va por México (PRI,PAN, PRD) "
+  },
+  {
+    "alcaldia_id": 13,
+    "alcaldia": "XOCHIMILCO",
+    "candidato": "José Carlos Acosta Ruiz de Juntos hacemos historia Ciudad de México (PT-MORENA) "
+  },
+  {
+    "alcaldia_id": 13,
+    "alcaldia": "XOCHIMILCO",
+    "candidato": "María De Los Ángeles De Lucio Arraiga del Partido Encuentro Solidario "
+  },
+  {
+    "alcaldia_id": 13,
+    "alcaldia": "XOCHIMILCO",
+    "candidato": "Miguel Ángel Cruz Águila del Partido Equidad Libertad Y Género"
+  },
+  {
+    "alcaldia_id": 13,
+    "alcaldia": "XOCHIMILCO",
+    "candidato": "Miguel Ángel Cámara Arango del Partido Verde Ecologista de México (PVEM) "
+  },
+  {
+    "alcaldia_id": 13,
+    "alcaldia": "XOCHIMILCO",
+    "candidato": "Nancy Báez Aguilar de Redes Sociales Progresistas (RSP, REDES) "
+  },
+  {
+    "alcaldia_id": 13,
+    "alcaldia": "XOCHIMILCO",
+    "candidato": "Sergio Flores Ríos de Movimiento Ciudadano "
+  },
+  {
+    "alcaldia_id": 13,
+    "alcaldia": "XOCHIMILCO",
+    "candidato": "Hector Armando Almazán Cravioto, Independiente."
+  }
+]

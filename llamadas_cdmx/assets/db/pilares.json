@@ -1,0 +1,1002 @@
+[
+  {
+    "seccion": 3503,
+    "numero": 2369,
+    "pilar": "119_PT_AOB",
+    "distancia": "0.003973",
+    "orden_cercania": "9",
+    "alcaldia": "Álvaro Obregón",
+    "nombre_pilar": "LAS ÁGUILAS",
+    "direccion": "PROLONGACION BARRANCA DEL MUERTO S/N, COLONIA LAS AGUILAS. ALCALDÍA ALVARO OBREGON. (LAS AGUILAS)"
+  },
+  {
+    "seccion": 3486,
+    "numero": 2361,
+    "pilar": "119_PT_AOB",
+    "distancia": "0",
+    "orden_cercania": "1",
+    "alcaldia": "Álvaro Obregón",
+    "nombre_pilar": "LAS ÁGUILAS",
+    "direccion": "PROLONGACION BARRANCA DEL MUERTO S/N, COLONIA LAS AGUILAS. ALCALDÍA ALVARO OBREGON. (LAS AGUILAS)"
+  },
+  {
+    "seccion": 3177,
+    "numero": 467,
+    "pilar": "024_PT_AOB",
+    "distancia": "0.004709",
+    "orden_cercania": "7",
+    "alcaldia": "Álvaro Obregón",
+    "nombre_pilar": "BELEN DE LAS FLORES",
+    "direccion": "BELEN S/N, COLONIA BELEN DE LAS FLORES. ALCALDÍA ALVARO OBREGON. (CENTRO SOCIAL BELEN DE LAS FLORES)"
+  },
+  {
+    "seccion": 3303,
+    "numero": 855,
+    "pilar": "043_PT_AOB",
+    "distancia": "0.003441",
+    "orden_cercania": "14",
+    "alcaldia": "Álvaro Obregón",
+    "nombre_pilar": "ARBOL DEL CONOCIMIENTO",
+    "direccion": "LUIS G. URBINA S/N, COLONIA LOMAS DE BECERRA. ALCALDÍA ALVARO OBREGON. (ARBOL DEL CONOCIMIENTO)"
+  },
+  {
+    "seccion": 3593,
+    "numero": 873,
+    "pilar": "044_PT_AOB",
+    "distancia": "0.004099",
+    "orden_cercania": "13",
+    "alcaldia": "Álvaro Obregón",
+    "nombre_pilar": "LOMAS DE LA ERA",
+    "direccion": "ANDADOR 29 DE OCTUBRE S/N, COLONIA LOMAS DE LA ERA. ALCALDÍA ALVARO OBREGON. (TERRITORIAL LA ERA)"
+  },
+  {
+    "seccion": 3484,
+    "numero": 1337,
+    "pilar": "067_PT_AOB",
+    "distancia": "0.004721",
+    "orden_cercania": "17",
+    "alcaldia": "Álvaro Obregón",
+    "nombre_pilar": "SANTA LUCIA",
+    "direccion": "AVENIDA SANTA LUCIA S/N, COLONIA COLINAS DEL SUR. ALCALDÍA ALVARO OBREGON. (EX-ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 3169,
+    "numero": 68,
+    "pilar": "004_PT_AOB",
+    "distancia": "0.0022",
+    "orden_cercania": "8",
+    "alcaldia": "Álvaro Obregón",
+    "nombre_pilar": "EL CAPULIN",
+    "direccion": "PROLONGACION ARTIFICIOS S/N, COLONIA EL CAPULIN. ALCALDÍA ALVARO OBREGON. (EL CAPULIN)"
+  },
+  {
+    "seccion": 3440,
+    "numero": 2377,
+    "pilar": "119_PT_AOB",
+    "distancia": "0.005087",
+    "orden_cercania": "17",
+    "alcaldia": "Álvaro Obregón",
+    "nombre_pilar": "LAS ÁGUILAS",
+    "direccion": "PROLONGACION BARRANCA DEL MUERTO S/N, COLONIA LAS AGUILAS. ALCALDÍA ALVARO OBREGON. (LAS AGUILAS)"
+  },
+  {
+    "seccion": 3276,
+    "numero": 89,
+    "pilar": "005_PT_AOB",
+    "distancia": "0.003111",
+    "orden_cercania": "9",
+    "alcaldia": "Álvaro Obregón",
+    "nombre_pilar": "JALALPA TEPITO",
+    "direccion": "ENCINAL S/N, COLONIA JALALPA TEPITO. ALCALDÍA ALVARO OBREGON. (JALALPA)"
+  },
+  {
+    "seccion": 3164,
+    "numero": 67,
+    "pilar": "004_PT_AOB",
+    "distancia": "0.001905",
+    "orden_cercania": "7",
+    "alcaldia": "Álvaro Obregón",
+    "nombre_pilar": "EL CAPULIN",
+    "direccion": "PROLONGACION ARTIFICIOS S/N, COLONIA EL CAPULIN. ALCALDÍA ALVARO OBREGON. (EL CAPULIN)"
+  },
+  {
+    "seccion": 3381,
+    "numero": 46,
+    "pilar": "003_PT_AOB",
+    "distancia": "0.001786",
+    "orden_cercania": "6",
+    "alcaldia": "Álvaro Obregón",
+    "nombre_pilar": "LA ARAÑA",
+    "direccion": "PROLONGACION RIO MIXCOAC S/N, COLONIA LA ARAÑA. ALCALDÍA ALVARO OBREGON. (LA ARAÑA)"
+  },
+  {
+    "seccion": 3594,
+    "numero": 2152,
+    "pilar": "108_PT_AOB",
+    "distancia": "0.005143",
+    "orden_cercania": "12",
+    "alcaldia": "Álvaro Obregón",
+    "nombre_pilar": "CHAMONTOYA",
+    "direccion": "AZUCENA LT. 20, COLONIA LOMAS DE CHAMONTOYA. ALCALDÍA ALVARO OBREGON. (CHAMONTOYA)"
+  },
+  {
+    "seccion": 257,
+    "numero": 702,
+    "pilar": "036_NT_AZC",
+    "distancia": "0.000096",
+    "orden_cercania": "2",
+    "alcaldia": "Azcapotzalco",
+    "nombre_pilar": "SAN MIGUEL AMANTLA",
+    "direccion": "AVENIDA MORELOS 163, COLONIA SAN MIGUEL AMANTLA. ALCALDÍA AZCAPOTZALCO. (CENTRO DE DESARROLLO COMUNITARIO SAN MIGUEL AMANTLA)"
+  },
+  {
+    "seccion": 276,
+    "numero": 1204,
+    "pilar": "061_NT_AZC",
+    "distancia": "0.001691",
+    "orden_cercania": "4",
+    "alcaldia": "Azcapotzalco",
+    "nombre_pilar": "LA NARANJA",
+    "direccion": "CALZADA DE LA NARANJA 10156, COLONIA AMPLIACION SAN PEDRO XALPA. ALCALDÍA AZCAPOTZALCO. (EX-ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 205,
+    "numero": 690,
+    "pilar": "035_NT_AZC",
+    "distancia": "0.002422",
+    "orden_cercania": "10",
+    "alcaldia": "Azcapotzalco",
+    "nombre_pilar": "MARGARITA MAZA DE JUAREZ",
+    "direccion": "AMUZGOS S/N, COLONIA TEZOZOMOC. ALCALDÍA AZCAPOTZALCO. (CDC MARGARITA MAZA DE JUAREZ)"
+  },
+  {
+    "seccion": 1464,
+    "numero": 1897,
+    "pilar": "095_NT_AZC",
+    "distancia": "0.005734",
+    "orden_cercania": "17",
+    "alcaldia": "Azcapotzalco",
+    "nombre_pilar": "COLTONGO",
+    "direccion": "BAHIA MAGDALENA S/N, COLONIA COLTONGO. ALCALDÍA AZCAPOTZALCO. (DEPORTIVO Y MODULO COLTONGO)"
+  },
+  {
+    "seccion": 328,
+    "numero": 1898,
+    "pilar": "095_NT_AZC",
+    "distancia": "0.005887",
+    "orden_cercania": "18",
+    "alcaldia": "Azcapotzalco",
+    "nombre_pilar": "COLTONGO",
+    "direccion": "BAHIA MAGDALENA S/N, COLONIA COLTONGO. ALCALDÍA AZCAPOTZALCO. (DEPORTIVO Y MODULO COLTONGO)"
+  },
+  {
+    "seccion": 461,
+    "numero": 904,
+    "pilar": "046_SP_COY",
+    "distancia": "0.000664",
+    "orden_cercania": "4",
+    "alcaldia": "Coyoacán",
+    "nombre_pilar": "VILLA PANAMERICANA",
+    "direccion": "AVENIDA PANAMERICANA S/N, COLONIA PEDREGAL DE CARRASCO. ALCALDÍA COYOACAN. (CENTRO DEPORTIVO COMUNITARIO VILLA PANAMERICANA)"
+  },
+  {
+    "seccion": 414,
+    "numero": 912,
+    "pilar": "046_SP_COY",
+    "distancia": "0.002554",
+    "orden_cercania": "12",
+    "alcaldia": "Coyoacán",
+    "nombre_pilar": "VILLA PANAMERICANA",
+    "direccion": "AVENIDA PANAMERICANA S/N, COLONIA PEDREGAL DE CARRASCO. ALCALDÍA COYOACAN. (CENTRO DEPORTIVO COMUNITARIO VILLA PANAMERICANA)"
+  },
+  {
+    "seccion": 478,
+    "numero": 910,
+    "pilar": "046_SP_COY",
+    "distancia": "0.002161",
+    "orden_cercania": "10",
+    "alcaldia": "Coyoacán",
+    "nombre_pilar": "VILLA PANAMERICANA",
+    "direccion": "AVENIDA PANAMERICANA S/N, COLONIA PEDREGAL DE CARRASCO. ALCALDÍA COYOACAN. (CENTRO DEPORTIVO COMUNITARIO VILLA PANAMERICANA)"
+  },
+  {
+    "seccion": 615,
+    "numero": 2548,
+    "pilar": "129_SP_COY",
+    "distancia": "0.003127",
+    "orden_cercania": "8",
+    "alcaldia": "Coyoacán",
+    "nombre_pilar": "FRANCISCO J. MUJICA",
+    "direccion": "CALZ. DE LA VIGA EJE 2 OTE. S/N, COLONIA CULHUACAN CTM CANAL NACIONAL. ALCALDÍA COYOACAN. (DEPORTIVO FRANCISCO JOSE MUJICA)"
+  },
+  {
+    "seccion": 391,
+    "numero": 2011,
+    "pilar": "101_SP_COY",
+    "distancia": "0.002314",
+    "orden_cercania": "11",
+    "alcaldia": "Coyoacán",
+    "nombre_pilar": "LA ESCUELITA",
+    "direccion": "CANACUATE , COLONIA SANTO DOMINGO. ALCALDÍA COYOACAN. (CENTRO DE ARTES Y OFICIOS ESCUELITA EMILIANO ZAPATA)"
+  },
+  {
+    "seccion": 453,
+    "numero": 922,
+    "pilar": "047_SP_COY",
+    "distancia": "0.000263",
+    "orden_cercania": "2",
+    "alcaldia": "Coyoacán",
+    "nombre_pilar": "SANTA ÚRSULA",
+    "direccion": "SAN ISAURO MZ. 940 LT. 1, COLONIA SANTA URSULA COAPA PGAL DE SANTA URSULA COAPA. ALCALDÍA COYOACAN. (CENTRO DE ARTES SANTA URSULA)"
+  },
+  {
+    "seccion": 399,
+    "numero": 1665,
+    "pilar": "084_SP_COY",
+    "distancia": "0.001954",
+    "orden_cercania": "5",
+    "alcaldia": "Coyoacán",
+    "nombre_pilar": "EL RELOJ",
+    "direccion": "COROLA S/N, COLONIA EL RELOJ. ALCALDÍA COYOACAN. (PARQUE EL RELOJ)"
+  },
+  {
+    "seccion": 4731,
+    "numero": 2343,
+    "pilar": "118_CO_CUH",
+    "distancia": "0.000981",
+    "orden_cercania": "3",
+    "alcaldia": "Cuauhtémoc",
+    "nombre_pilar": "TEPITO",
+    "direccion": "JESUS CARRANZA 15, COLONIA MORELOS. ALCALDÍA CUAUHTEMOC. (LOTE BALDIO)"
+  },
+  {
+    "seccion": 4901,
+    "numero": 1962,
+    "pilar": "099_CO_CUH",
+    "distancia": "0.000428",
+    "orden_cercania": "2",
+    "alcaldia": "Cuauhtémoc",
+    "nombre_pilar": "SAN FRANCISCO TULTENCO",
+    "direccion": "CALLEJON FRANCISCO TULTENCO 41, COLONIA PAULINO NAVARRO. ALCALDÍA CUAUHTEMOC. (CASA DE ARTE Y CULTURA PARA LA VIDA)"
+  },
+  {
+    "seccion": 4909,
+    "numero": 1963,
+    "pilar": "099_CO_CUH",
+    "distancia": "0.000876",
+    "orden_cercania": "3",
+    "alcaldia": "Cuauhtémoc",
+    "nombre_pilar": "SAN FRANCISCO TULTENCO",
+    "direccion": "CALLEJON FRANCISCO TULTENCO 41, COLONIA PAULINO NAVARRO. ALCALDÍA CUAUHTEMOC. (CASA DE ARTE Y CULTURA PARA LA VIDA)"
+  },
+  {
+    "seccion": 5189,
+    "numero": 1722,
+    "pilar": "087_CO_CUH",
+    "distancia": "0.000473",
+    "orden_cercania": "2",
+    "alcaldia": "Cuauhtémoc",
+    "nombre_pilar": "BOLEO",
+    "direccion": "FERROCARRIL HIDALGO S/D, COLONIA VALLE GOMEZ. ALCALDÍA CUAUHTEMOC. (MÓDULO DE PARTICIPACIÓN CIUDADANA)"
+  },
+  {
+    "seccion": 4538,
+    "numero": 672,
+    "pilar": "034_CO_CUH",
+    "distancia": "0.004366",
+    "orden_cercania": "12",
+    "alcaldia": "Cuauhtémoc",
+    "nombre_pilar": "ZONA ROSA",
+    "direccion": "LONDRES 154, COLONIA JUAREZ. ALCALDÍA CUAUHTEMOC. (CENDI INSURGENTES)"
+  },
+  {
+    "seccion": 4790,
+    "numero": 252,
+    "pilar": "013_CO_CUH",
+    "distancia": "0.002617",
+    "orden_cercania": "12",
+    "alcaldia": "Cuauhtémoc",
+    "nombre_pilar": "FRIDA KAHLO",
+    "direccion": "EJE CENTRAL LAZARO CARDENAS S/N, COLONIA OBRERA. ALCALDÍA CUAUHTEMOC. (FRIDA KAHLO)"
+  },
+  {
+    "seccion": 4635,
+    "numero": 2615,
+    "pilar": "132_CO_CUH",
+    "distancia": "0.003841",
+    "orden_cercania": "15",
+    "alcaldia": "Cuauhtémoc",
+    "nombre_pilar": "PARQUE ABASOLO",
+    "direccion": "EJE 1 PONIENTE GUERRERO S/N, COLONIA BUENAVISTA. ALCALDÍA CUAUHTEMOC. (PARQUE ABASOLO)"
+  },
+  {
+    "seccion": 342,
+    "numero": 271,
+    "pilar": "014_CO_CUH",
+    "distancia": "0.003353",
+    "orden_cercania": "11",
+    "alcaldia": "Cuauhtémoc",
+    "nombre_pilar": "SAN SIMON TOLNAHUAC",
+    "direccion": "EJE 1 PONIENTE GUERRERO S/D, COLONIA SAN SIMON TOLNAHUAC. ALCALDÍA CUAUHTEMOC. (SAN SIMON TOLNAHUAC)"
+  },
+  {
+    "seccion": 1138,
+    "numero": 2,
+    "pilar": "001_NT_GAM",
+    "distancia": "0.000083",
+    "orden_cercania": "2",
+    "alcaldia": "Gustavo A. Madero",
+    "nombre_pilar": "RICHARD WAGNER",
+    "direccion": "JOSE ANSELMO CLAVE S/D, COLONIA VALLEJO. ALCALDÍA GUSTAVO A. MADERO. (RICHARD WAGNER)"
+  },
+  {
+    "seccion": 825,
+    "numero": 2303,
+    "pilar": "116_NT_GAM",
+    "distancia": "0.001217",
+    "orden_cercania": "3",
+    "alcaldia": "Gustavo A. Madero",
+    "nombre_pilar": "VIVERO",
+    "direccion": "BLANCA ESTELA PAVON S/N, COLONIA ARBOLEDAS DE CUAUTEPEC. ALCALDÍA GUSTAVO A. MADERO. (DEPORTIVO EL VIVERO)"
+  },
+  {
+    "seccion": 1623,
+    "numero": 3175,
+    "pilar": "212_NT_GAM",
+    "distancia": "0.006335",
+    "orden_cercania": "15",
+    "alcaldia": "Gustavo A. Madero",
+    "nombre_pilar": "VILLA DE ARAGÓN",
+    "direccion": "EJE 5 NORTE AVENIDA 412 S/N, COLONIA VILLA DE ARAGON. ALCALDÍA GUSTAVO A. MADERO. (MPC)"
+  },
+  {
+    "seccion": 1129,
+    "numero": 19,
+    "pilar": "001_NT_GAM",
+    "distancia": "0.003997",
+    "orden_cercania": "19",
+    "alcaldia": "Gustavo A. Madero",
+    "nombre_pilar": "RICHARD WAGNER",
+    "direccion": "JOSE ANSELMO CLAVE S/D, COLONIA VALLEJO. ALCALDÍA GUSTAVO A. MADERO. (RICHARD WAGNER)"
+  },
+  {
+    "seccion": 1033,
+    "numero": 2216,
+    "pilar": "111_NT_GAM",
+    "distancia": "0.004183",
+    "orden_cercania": "15",
+    "alcaldia": "Gustavo A. Madero",
+    "nombre_pilar": "PUERTO MAZATLÁN",
+    "direccion": "CALZADA TICOMÁN , COLONIA LA PASTORA. ALCALDÍA GUSTAVO A. MADERO. (EX-ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 998,
+    "numero": 1366,
+    "pilar": "069_NT_GAM",
+    "distancia": "0.002037",
+    "orden_cercania": "6",
+    "alcaldia": "Gustavo A. Madero",
+    "nombre_pilar": "100 METROS",
+    "direccion": "AV. CIEN METROS Y ANILLO PERIFERICO S/D, COLONIA SANTIAGO ATEPETLAC. ALCALDÍA GUSTAVO A. MADERO. (EX-ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 1386,
+    "numero": 2997,
+    "pilar": "164_NT_GAM",
+    "distancia": "0.004051",
+    "orden_cercania": "17",
+    "alcaldia": "Gustavo A. Madero",
+    "nombre_pilar": "GRAN CANAL",
+    "direccion": "AV. GRAN CANAL DE DESAGUE S/N, COLONIA CASAS ALEMAN. ALCALDÍA GUSTAVO A. MADERO. (PREDIO BALDIO_1)"
+  },
+  {
+    "seccion": 1557,
+    "numero": 2986,
+    "pilar": "164_NT_GAM",
+    "distancia": "0.001444",
+    "orden_cercania": "6",
+    "alcaldia": "Gustavo A. Madero",
+    "nombre_pilar": "GRAN CANAL",
+    "direccion": "AV. GRAN CANAL DE DESAGUE S/N, COLONIA CASAS ALEMAN. ALCALDÍA GUSTAVO A. MADERO. (PREDIO BALDIO_1)"
+  },
+  {
+    "seccion": 1335,
+    "numero": 2666,
+    "pilar": "136_NT_GAM",
+    "distancia": "0.001522",
+    "orden_cercania": "6",
+    "alcaldia": "Gustavo A. Madero",
+    "nombre_pilar": "SAN FELIPE",
+    "direccion": "AVENIDA LEON DE LOS ALDAMAS S/N, COLONIA SAN FELIPE DE JESUS. ALCALDÍA GUSTAVO A. MADERO. (CIGAMEC)"
+  },
+  {
+    "seccion": 1756,
+    "numero": 989,
+    "pilar": "050_CO_IZT",
+    "distancia": "0.002152",
+    "orden_cercania": "9",
+    "alcaldia": "Iztacalco",
+    "nombre_pilar": "LA FORTALEZA",
+    "direccion": "ORIENTE 116 Y PUENTE SAN JUAN CARBONERO S/D, COLONIA CUCHILLA RAMOS MILLAN. ALCALDÍA IZTACALCO. (CENTRO SOCIAL Y CULTURAL LA FORTALEZA)"
+  },
+  {
+    "seccion": 2801,
+    "numero": 2752,
+    "pilar": "141_IZ_IZP",
+    "distancia": "0.007311",
+    "orden_cercania": "12",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "TIERRA Y LIBERTAD",
+    "direccion": "ENRIQUE RAMBAL S/N, COLONIA AMPLIACION EMILIANO ZAPATA. ALCALDÍA IZTAPALAPA. (CENTRO COMUNITARIO TIERRA Y LIBERTAD)"
+  },
+  {
+    "seccion": 2781,
+    "numero": 1298,
+    "pilar": "065_IZ_IZP",
+    "distancia": "0.007978",
+    "orden_cercania": "18",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "TETECÓN",
+    "direccion": "CAPULINES MZ. 54 LT. 22, COLONIA BUENAVISTA. ALCALDÍA IZTAPALAPA. (CENTRO SOCIAL TETECON)"
+  },
+  {
+    "seccion": 2687,
+    "numero": 1009,
+    "pilar": "051_IZ_IZP",
+    "distancia": "0.002994",
+    "orden_cercania": "9",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "PALMITAS",
+    "direccion": "NATIVITAS S/N, COLONIA PALMITAS. ALCALDÍA IZTAPALAPA. (CENTRO SOCIAL PALMITAS)"
+  },
+  {
+    "seccion": 2694,
+    "numero": 3203,
+    "pilar": "224_IZ_IZP",
+    "distancia": "0.000492",
+    "orden_cercania": "3",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "LOMAS DE LA ESTANCIA",
+    "direccion": "FRACCIÓN DE TERRENO UBICADA EN CAMINO A LAS MINAS SN. COLONIA LOMAS DE LA ESTANCIA"
+  },
+  {
+    "seccion": 2527,
+    "numero": 1990,
+    "pilar": "100_IZ_IZP",
+    "distancia": "0.001873",
+    "orden_cercania": "9",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "CONSTITUCIÓN DE 1917",
+    "direccion": "ERMITA IZTAPALAPA , COLONIA . ALCALDÍA IZTAPALAPA. (EX-ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 2272,
+    "numero": 1742,
+    "pilar": "088_IZ_IZP",
+    "distancia": "0.000065",
+    "orden_cercania": "2",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "EMILIO ROSAS",
+    "direccion": "CALLE 2 EMILIO ROSAS , COLONIA VICENTE GUERRERO. ALCALDÍA IZTAPALAPA. (EX-ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 2787,
+    "numero": 3212,
+    "pilar": "224_IZ_IZP",
+    "distancia": "0.003078",
+    "orden_cercania": "12",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "LOMAS DE LA ESTANCIA",
+    "direccion": "FRACCIÓN DE TERRENO UBICADA EN CAMINO A LAS MINAS SN. COLONIA LOMAS DE LA ESTANCIA"
+  },
+  {
+    "seccion": 2352,
+    "numero": 515,
+    "pilar": "026_IZ_IZP",
+    "distancia": "0.003735",
+    "orden_cercania": "15",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "FACUNDO CABRAL",
+    "direccion": "MOCTEZUMA S/N, COLONIA LOS REYES. ALCALDÍA IZTAPALAPA. (CENTRO CULTURAL FACUNDO CABRAL)"
+  },
+  {
+    "seccion": 2207,
+    "numero": 1056,
+    "pilar": "053_IZ_IZP",
+    "distancia": "0.006836",
+    "orden_cercania": "16",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "RENOVACIÓN",
+    "direccion": "AVENIDA 9 ND, COLONIA RENOVACION. ALCALDÍA IZTAPALAPA. (MÓDULO DE PARTICIPACIÓN CIUDADANA)"
+  },
+  {
+    "seccion": 2817,
+    "numero": 1528,
+    "pilar": "077_IZ_IZP",
+    "distancia": "0.003848",
+    "orden_cercania": "8",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "CERRO AZÚL",
+    "direccion": "CERRO AZUL MANZANA 95-C S/D, COLONIA BUENAVISTA. ALCALDÍA IZTAPALAPA. (EX-ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 2608,
+    "numero": 2283,
+    "pilar": "115_IZ_IZP",
+    "distancia": "0.001018",
+    "orden_cercania": "3",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "BAMBÚ",
+    "direccion": "CALLE 1 LT. 16 Y LT. 101, COLONIA LOMAS DE LA ESTANCIA. ALCALDÍA IZTAPALAPA. (MODULO DE ATENCION COMUNITARIO \"MEJORAMIENTO BARRIAL GDF\")"
+  },
+  {
+    "seccion": 2298,
+    "numero": 1482,
+    "pilar": "075_IZ_IZP",
+    "distancia": "0.000324",
+    "orden_cercania": "2",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "SANTA CRUZ MEYEHUALCO",
+    "direccion": "CALLE 55 S/N, COLONIA SANTA CRUZ MEYEHUALCO. ALCALDÍA IZTAPALAPA. (CENTRO COMUNITARIO ADOLFO LOPEZ MATEOS)"
+  },
+  {
+    "seccion": 3614,
+    "numero": 1284,
+    "pilar": "065_IZ_IZP",
+    "distancia": "0.003899",
+    "orden_cercania": "4",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "TETECÓN",
+    "direccion": "CAPULINES MZ. 54 LT. 22, COLONIA BUENAVISTA. ALCALDÍA IZTAPALAPA. (CENTRO SOCIAL TETECON)"
+  },
+  {
+    "seccion": 2865,
+    "numero": 1293,
+    "pilar": "065_IZ_IZP",
+    "distancia": "0.006247",
+    "orden_cercania": "13",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "TETECÓN",
+    "direccion": "CAPULINES MZ. 54 LT. 22, COLONIA BUENAVISTA. ALCALDÍA IZTAPALAPA. (CENTRO SOCIAL TETECON)"
+  },
+  {
+    "seccion": 2381,
+    "numero": 516,
+    "pilar": "026_IZ_IZP",
+    "distancia": "0.003858",
+    "orden_cercania": "16",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "FACUNDO CABRAL",
+    "direccion": "MOCTEZUMA S/N, COLONIA LOS REYES. ALCALDÍA IZTAPALAPA. (CENTRO CULTURAL FACUNDO CABRAL)"
+  },
+  {
+    "seccion": 2189,
+    "numero": 2729,
+    "pilar": "140_IZ_IZP",
+    "distancia": "0.003857",
+    "orden_cercania": "9",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "REPÚBLICA FEDERAL",
+    "direccion": "REPUBLICA FEDERAL SUR ND, COLONIA SANTA MARTHA ACATITLA. ALCALDÍA IZTAPALAPA. (REPUBLICA FEDERAL (PREDIO BALDIO))"
+  },
+  {
+    "seccion": 2686,
+    "numero": 1002,
+    "pilar": "051_IZ_IZP",
+    "distancia": "0.000714",
+    "orden_cercania": "2",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "PALMITAS",
+    "direccion": "NATIVITAS S/N, COLONIA PALMITAS. ALCALDÍA IZTAPALAPA. (CENTRO SOCIAL PALMITAS)"
+  },
+  {
+    "seccion": 2088,
+    "numero": 2226,
+    "pilar": "112_IZ_IZP",
+    "distancia": "0.001767",
+    "orden_cercania": "6",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "TEPALCATES",
+    "direccion": "PRIMAVERA S/N, COLONIA TEPALCATES. ALCALDÍA IZTAPALAPA. (CENTRO COMUNITARIO TEPALCATES Y PREDIO TEPALCATES)"
+  },
+  {
+    "seccion": 2562,
+    "numero": 1271,
+    "pilar": "064_IZ_IZP",
+    "distancia": "0.003226",
+    "orden_cercania": "11",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "NOGAL",
+    "direccion": "FRESNO Y NOGAL S/D, COLONIA CITLALLI. ALCALDÍA IZTAPALAPA. (EX-ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 2609,
+    "numero": 3204,
+    "pilar": "224_IZ_IZP",
+    "distancia": "0.000656",
+    "orden_cercania": "4",
+    "alcaldia": "Iztapalapa",
+    "nombre_pilar": "LOMAS DE LA ESTANCIA",
+    "direccion": "FRACCIÓN DE TERRENO UBICADA EN CAMINO A LAS MINAS SN. COLONIA LOMAS DE LA ESTANCIA"
+  },
+  {
+    "seccion": 3115,
+    "numero": 323,
+    "pilar": "017_SP_MAC",
+    "distancia": "0.000594",
+    "orden_cercania": "3",
+    "alcaldia": "La Magdalena Contreras",
+    "nombre_pilar": "HUAYATLA",
+    "direccion": "HUAYATLA 13, COLONIA PUEBLO NUEVO ALTO. ALCALDÍA MAGDALENA CONTRERAS. (CASA DEL ADULTO MAYOR)"
+  },
+  {
+    "seccion": 2998,
+    "numero": 1619,
+    "pilar": "081_SP_MAC",
+    "distancia": "0.004113",
+    "orden_cercania": "19",
+    "alcaldia": "La Magdalena Contreras",
+    "nombre_pilar": "LA MALINCHE",
+    "direccion": "MELOCOTON S/N, COLONIA LA MALINCHE. ALCALDÍA MAGDALENA CONTRERAS. (AREA RECREATIVA LA MALINCHE)"
+  },
+  {
+    "seccion": 5113,
+    "numero": 737,
+    "pilar": "037_PT_MIH",
+    "distancia": "0.003146",
+    "orden_cercania": "17",
+    "alcaldia": "Miguel Hidalgo",
+    "nombre_pilar": "CANEGUÍN",
+    "direccion": "LAGO DE CANEGUIN S/N, COLONIA ARGENTINA ANTIGUA. ALCALDÍA MIGUEL HIDALGO. (CANEGUIN (CAIA))"
+  },
+  {
+    "seccion": 5057,
+    "numero": 1796,
+    "pilar": "090_PT_MIH",
+    "distancia": "0.003046",
+    "orden_cercania": "16",
+    "alcaldia": "Miguel Hidalgo",
+    "nombre_pilar": "PENSIL",
+    "direccion": "LAGO TRANSIMENO ENTRE LAGO WETTER Y LAGO ERNE S/D, COLONIA REFORMA PENSIL. ALCALDÍA MIGUEL HIDALGO. (FARO DEL SABER MORELOS)"
+  },
+  {
+    "seccion": 5107,
+    "numero": 2782,
+    "pilar": "143_PT_MIH",
+    "distancia": "0.000158",
+    "orden_cercania": "2",
+    "alcaldia": "Miguel Hidalgo",
+    "nombre_pilar": "TLACOPAN",
+    "direccion": "CALZADA MEXICO TACUBA ND, COLONIA TACUBA. ALCALDÍA MIGUEL HIDALGO. (BAJO PUENTE CALZ. TACUBA ESQ. MARINA NACIONAL)"
+  },
+  {
+    "seccion": 5120,
+    "numero": 3066,
+    "pilar": "178_PT_MIH",
+    "distancia": "0.002129",
+    "orden_cercania": "6",
+    "alcaldia": "Miguel Hidalgo",
+    "nombre_pilar": "PARQUE SALESIANO",
+    "direccion": "COLEGIO SALESIANO S/N, COLONIA ANAHUAC 1 SECCION. ALCALDÍA MIGUEL HIDALGO. (CLINICA VETERINARIA Y AREA VERDE)"
+  },
+  {
+    "seccion": 3119,
+    "numero": 967,
+    "pilar": "049_SU_MIA",
+    "distancia": "0.006154",
+    "orden_cercania": "7",
+    "alcaldia": "Milpa Alta",
+    "nombre_pilar": "XALTIPAC",
+    "direccion": "5 DE MAYO S/N, COLONIA XALTIPAC. ALCALDÍA MILPA ALTA. (GIMNASIO PEPE EL TORO)"
+  },
+  {
+    "seccion": 4259,
+    "numero": 453,
+    "pilar": "023_SU_MIA",
+    "distancia": "0.019794",
+    "orden_cercania": "13",
+    "alcaldia": "Milpa Alta",
+    "nombre_pilar": "CUAUHTENCO",
+    "direccion": "EMILIANO ZAPATA S/N, COLONIA SAN SALVADOR CUAUHTENCO (PBLO). ALCALDÍA MILPA ALTA. (CENTRO DE ATENCION INTEGRAL PARA LAS ADICCIONES (CAIA))"
+  },
+  {
+    "seccion": 3155,
+    "numero": 3084,
+    "pilar": "179_SU_MIA",
+    "distancia": "0.003557",
+    "orden_cercania": "4",
+    "alcaldia": "Milpa Alta",
+    "nombre_pilar": "SAN PABLO OZTOTEPEC",
+    "direccion": "EMILIANO ZAPATA S/N, COLONIA CHALMITA. ALCALDÍA MILPA ALTA. (COMEDOR COMUNITARIO)"
+  },
+  {
+    "seccion": 3152,
+    "numero": 1127,
+    "pilar": "057_SU_MIA",
+    "distancia": "0.009319",
+    "orden_cercania": "7",
+    "alcaldia": "Milpa Alta",
+    "nombre_pilar": "SAN PEDRO ATOCPAN",
+    "direccion": "CALLE ATZAYACATL Y GUADALUPE VICTORIA S/D, COLONIA SAN PEDRO ACTOPAN. ALCALDÍA MILPA ALTA. (EX-ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 3636,
+    "numero": 888,
+    "pilar": "045_SU_TLH",
+    "distancia": "0.005638",
+    "orden_cercania": "8",
+    "alcaldia": "Tláhuac",
+    "nombre_pilar": "PAULO FREIRE",
+    "direccion": "SANTA CRUZ 127, COLONIA ARBOLEDAS. ALCALDÍA TLAHUAC. (SANTA CRUZ)"
+  },
+  {
+    "seccion": 3637,
+    "numero": 311,
+    "pilar": "016_SU_TLH",
+    "distancia": "0.004629",
+    "orden_cercania": "11",
+    "alcaldia": "Tláhuac",
+    "nombre_pilar": "GARCÍA LORCA",
+    "direccion": "CECILIO ACOSTA S/N, COLONIA SAN MIGUEL ZAPOTITLA. ALCALDÍA TLAHUAC. (GARCIA LORCA)"
+  },
+  {
+    "seccion": 3632,
+    "numero": 2851,
+    "pilar": "146_SU_TLH",
+    "distancia": "0.003166",
+    "orden_cercania": "11",
+    "alcaldia": "Tláhuac",
+    "nombre_pilar": "NOPALERA",
+    "direccion": "COLONIA LA NOPALERA. ALCALDÍA TLAHUAC. ()"
+  },
+  {
+    "seccion": 3737,
+    "numero": 1715,
+    "pilar": "086_SU_TLH",
+    "distancia": "0.004473",
+    "orden_cercania": "15",
+    "alcaldia": "Tláhuac",
+    "nombre_pilar": "MURCIÉLAGO",
+    "direccion": "EL MURCIELAGO LT. 3, COLONIA AGRICOLA METROPOLITANA. ALCALDÍA TLAHUAC. (CENTRO DE SALUD ABANDONADO )"
+  },
+  {
+    "seccion": 3671,
+    "numero": 2191,
+    "pilar": "110_SU_TLH",
+    "distancia": "0.006408",
+    "orden_cercania": "11",
+    "alcaldia": "Tláhuac",
+    "nombre_pilar": "TLALTENCO",
+    "direccion": "MONTES DE LAS CORDILLERAS , COLONIA OJO DE AGUA. ALCALDÍA TLAHUAC. (EX-ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 3715,
+    "numero": 2485,
+    "pilar": "126_SU_TLH",
+    "distancia": "0.002569",
+    "orden_cercania": "5",
+    "alcaldia": "Tláhuac",
+    "nombre_pilar": "IXTAYOPAN",
+    "direccion": "LAZARO CARDENAS S/N, COLONIA LA ASUNCION (PBLO SAN JUAN IXTAYOPAN). ALCALDÍA TLAHUAC. (SAN JUAN IXTAYOPAN)"
+  },
+  {
+    "seccion": 5554,
+    "numero": 3244,
+    "pilar": "239_SU_TLH",
+    "distancia": "0.002341",
+    "orden_cercania": "4",
+    "alcaldia": "Tláhuac",
+    "nombre_pilar": "TIERRA BLANCA",
+    "direccion": "SAUCES S/N, COLONIA TIERRA BLANCA. ALCALDÍA TLAHUAC. (PARQUE TIERRA BLANCA)"
+  },
+  {
+    "seccion": 3633,
+    "numero": 2829,
+    "pilar": "145_SU_TLH",
+    "distancia": "0.004225",
+    "orden_cercania": "9",
+    "alcaldia": "Tláhuac",
+    "nombre_pilar": "LOS OLIVOS",
+    "direccion": "COCODRILO 67, COLONIA LOS OLIVOS 1. ALCALDÍA TLAHUAC. (ESCUELA DE BASQUETBOL)"
+  },
+  {
+    "seccion": 4053,
+    "numero": 3132,
+    "pilar": "183_SP_TLP",
+    "distancia": "0.005316",
+    "orden_cercania": "12",
+    "alcaldia": "Tlalpan",
+    "nombre_pilar": "SAN LORENZO HUIPULCO",
+    "direccion": "(ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 3865,
+    "numero": 1581,
+    "pilar": "080_SP_TLP",
+    "distancia": "0",
+    "orden_cercania": "1",
+    "alcaldia": "Tlalpan",
+    "nombre_pilar": "CUCHILLA DE PADIERNA",
+    "direccion": "CHACHULTUN LT. 1 MZ. 10, COLONIA CUCHILLA DE PADIERNA. ALCALDÍA TLALPAN. (CENTRO SOCIAL CUCHILLA PADIERNA)"
+  },
+  {
+    "seccion": 3994,
+    "numero": 756,
+    "pilar": "038_SP_TLP",
+    "distancia": "0.00729",
+    "orden_cercania": "16",
+    "alcaldia": "Tlalpan",
+    "nombre_pilar": "ECOGUARDAS",
+    "direccion": "KILOMETRO 5.5 CARRETERA PICACHO AJUSCO S/N, COLONIA AMPL MIGUEL HIDALGO 4A SECC. ALCALDÍA TLALPAN. (ECOGUARDAS)"
+  },
+  {
+    "seccion": 3855,
+    "numero": 754,
+    "pilar": "038_SP_TLP",
+    "distancia": "0.006935",
+    "orden_cercania": "14",
+    "alcaldia": "Tlalpan",
+    "nombre_pilar": "ECOGUARDAS",
+    "direccion": "KILOMETRO 5.5 CARRETERA PICACHO AJUSCO S/N, COLONIA AMPL MIGUEL HIDALGO 4A SECC. ALCALDÍA TLALPAN. (ECOGUARDAS)"
+  },
+  {
+    "seccion": 5390,
+    "numero": 1868,
+    "pilar": "094_CO_VCA",
+    "distancia": "0.001439",
+    "orden_cercania": "8",
+    "alcaldia": "Venustiano Carranza",
+    "nombre_pilar": "VIADUCTO",
+    "direccion": "VIADUCTO RIO DE LA PIEDAD S/N, COLONIA JARDIN BALBUENA. ALCALDÍA VENUSTIANO CARRANZA. (DEPORTIVO MIGUEL ALEMAN)"
+  },
+  {
+    "seccion": 5342,
+    "numero": 1775,
+    "pilar": "089_CO_VCA",
+    "distancia": "0.003659",
+    "orden_cercania": "15",
+    "alcaldia": "Venustiano Carranza",
+    "nombre_pilar": "FRAY SERVANDO",
+    "direccion": "EJE 3 ORIENTE FRANCISCO DEL PASO Y TRONCOSO S/N, COLONIA PRIMERO DE MAYO. ALCALDÍA VENUSTIANO CARRANZA. (EX-ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 5321,
+    "numero": 2896,
+    "pilar": "152_CO_VCA",
+    "distancia": "0.005003",
+    "orden_cercania": "16",
+    "alcaldia": "Venustiano Carranza",
+    "nombre_pilar": "PELON OSUNA",
+    "direccion": "NORTE 21 S/N, COLONIA MOCTEZUMA 2DA. SECCION. ALCALDÍA VENUSTIANO CARRANZA. (DEPORTIVO PELON OSUNA (TERRENO DE INDEPORTE))"
+  },
+  {
+    "seccion": 5447,
+    "numero": 2866,
+    "pilar": "151_CO_VCA",
+    "distancia": "0.001606",
+    "orden_cercania": "6",
+    "alcaldia": "Venustiano Carranza",
+    "nombre_pilar": "ADOLFO LOPEZ MATEOS",
+    "direccion": "COLONIA ADOLFO LOPEZ MATEOS. ALCALDÍA VENUSTIANO CARRANZA. (CDC ADOLFO LOPEZ MATEOS)"
+  },
+  {
+    "seccion": 5368,
+    "numero": 1453,
+    "pilar": "073_CO_VCA",
+    "distancia": "0.003361",
+    "orden_cercania": "13",
+    "alcaldia": "Venustiano Carranza",
+    "nombre_pilar": "AVENIDA DEL TALLER",
+    "direccion": "EJE 3 ORIENTE FRANCISCO DEL PASO Y TRONCOSO , COLONIA JARDÍN BALBUENA. ALCALDÍA VENUSTIANO CARRANZA. (EX-ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 4095,
+    "numero": 1184,
+    "pilar": "060_SU_XOC",
+    "distancia": "0.000905",
+    "orden_cercania": "4",
+    "alcaldia": "Xochimilco",
+    "nombre_pilar": "2021-09-16",
+    "direccion": "CRUCE DE ANILLO PERIFERICO SUR Y 16 DE SEPTIEMBRE S/D, COLONIA SANTA MARIA TEPEPAN. ALCALDÍA XOCHIMILCO. (EX-ESTACIÓN DE POLICÍA)"
+  },
+  {
+    "seccion": 4177,
+    "numero": 2932,
+    "pilar": "154_SU_XOC",
+    "distancia": "0.007265",
+    "orden_cercania": "12",
+    "alcaldia": "Xochimilco",
+    "nombre_pilar": "AHUALAPA",
+    "direccion": "AHUALAPA S/N, COLONIA BARRIO AHUALAPA. ALCALDÍA XOCHIMILCO. (SECOI AHUALAPA)"
+  },
+  {
+    "seccion": 4152,
+    "numero": 1655,
+    "pilar": "083_SU_XOC",
+    "distancia": "0.013916",
+    "orden_cercania": "15",
+    "alcaldia": "Xochimilco",
+    "nombre_pilar": "SAN LUIS TLAXIALTEMALCO",
+    "direccion": "ACUEDUCTO S/D, COLONIA SAN LUIS TLAXIALTEMALCO (PBLO). ALCALDÍA XOCHIMILCO. (MÓDULO DE PARTICIPACIÓN CIUDADANA)"
+  },
+  {
+    "seccion": 4263,
+    "numero": 572,
+    "pilar": "029_SU_XOC",
+    "distancia": "0.016265",
+    "orden_cercania": "12",
+    "alcaldia": "Xochimilco",
+    "nombre_pilar": "SANTA CECILIA",
+    "direccion": "FRANCISCO SARABIA ESQUINA PROGRESO S/D, COLONIA SANTA CECILIA TEPETLAPA (PBLO). ALCALDÍA XOCHIMILCO. (CASA DE LA CULTURA SANTA CECILIA)"
+  },
+  {
+    "seccion": 4166,
+    "numero": 2914,
+    "pilar": "153_SU_XOC",
+    "distancia": "0.009786",
+    "orden_cercania": "14",
+    "alcaldia": "Xochimilco",
+    "nombre_pilar": "ACUEXCOMATL",
+    "direccion": "AÑO DE JUAREZ 1900, COLONIA SAN LUIS TLAXIALTEMALCO (PBLO). ALCALDÍA XOCHIMILCO. (PARQUE ACUEXCOMATL)"
+  },
+  {
+    "seccion": 4194,
+    "numero": 2948,
+    "pilar": "155_SU_XOC",
+    "distancia": "0.003068",
+    "orden_cercania": "8",
+    "alcaldia": "Xochimilco",
+    "nombre_pilar": "SAN JUAN TEPEPAN",
+    "direccion": "PROLONGACION DURAZNO S/N, COLONIA SAN JUAN TEPEPAN. ALCALDÍA XOCHIMILCO. (LA CASITA SAN JUAN TEPEPAN)"
+  },
+  {
+    "seccion": 4136,
+    "numero": 3315,
+    "pilar": "251_SU_XOC",
+    "distancia": "0.005833",
+    "orden_cercania": "14",
+    "alcaldia": "Xochimilco",
+    "nombre_pilar": "BARRIO 18",
+    "direccion": "AVENIDA PLAN DE MUYUGUARDA Y CANAL DE LA NORIA, COLONIA BARRIO 18"
+  },
+  {
+    "seccion": 4164,
+    "numero": 660,
+    "pilar": "033_SU_XOC",
+    "distancia": "0.005914",
+    "orden_cercania": "20",
+    "alcaldia": "Xochimilco",
+    "nombre_pilar": "SANTIAGO TULYEHUALCO",
+    "direccion": "AV. IGNACIO ZARAGOZA S/D, COLONIA SANTIAGO TULYEHUALCO (CENTRO). ALCALDÍA XOCHIMILCO. (TULYEHUALCO)"
+  },
+  {
+    "seccion": 4102,
+    "numero": 3310,
+    "pilar": "251_SU_XOC",
+    "distancia": "0.004382",
+    "orden_cercania": "9",
+    "alcaldia": "Xochimilco",
+    "nombre_pilar": "BARRIO 18",
+    "direccion": "AVENIDA PLAN DE MUYUGUARDA Y CANAL DE LA NORIA, COLONIA BARRIO 18"
+  },
+  {
+    "seccion": 4118,
+    "numero": 2951,
+    "pilar": "155_SU_XOC",
+    "distancia": "0.004168",
+    "orden_cercania": "11",
+    "alcaldia": "Xochimilco",
+    "nombre_pilar": "SAN JUAN TEPEPAN",
+    "direccion": "PROLONGACION DURAZNO S/N, COLONIA SAN JUAN TEPEPAN. ALCALDÍA XOCHIMILCO. (LA CASITA SAN JUAN TEPEPAN)"
+  },
+  {
+    "seccion": 4132,
+    "numero": 2945,
+    "pilar": "155_SU_XOC",
+    "distancia": "0.001795",
+    "orden_cercania": "5",
+    "alcaldia": "Xochimilco",
+    "nombre_pilar": "SAN JUAN TEPEPAN",
+    "direccion": "PROLONGACION DURAZNO S/N, COLONIA SAN JUAN TEPEPAN. ALCALDÍA XOCHIMILCO. (LA CASITA SAN JUAN TEPEPAN)"
+  }
+]

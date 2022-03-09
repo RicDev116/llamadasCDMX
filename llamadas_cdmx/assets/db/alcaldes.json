@@ -1,0 +1,98 @@
+[
+  {
+    "alcaldia_id": 10,
+    "alcaldia": "Álvaro Obregón",
+    "alcalde": "Lía Limón García",
+    "alcalde_anterior":"Layda Sansores"
+  },
+  {
+    "alcaldia_id": 2,
+    "alcaldia": "Azcapotzalco",
+    "alcalde": "Margarita Saldaña Hernández",
+    "alcalde_anterior":"Vidal Llerenas"
+  },
+  {
+    "alcaldia_id": 14,
+    "alcaldia": "Benito Juárez",
+    "alcalde": "Santiago Taboada Cortina",
+    "alcalde_anterior":"Santiago Taboada"
+  },
+  {
+    "alcaldia_id": 3,
+    "alcaldia": "Coyoacán",
+    "alcalde": "José Giovani Gutiérrez Aguilar",
+    "alcalde_anterior":"Manuel Negrete"
+  },
+  {
+    "alcaldia_id": 4,
+    "alcaldia": "Cuajimalpa de Morelos",
+    "alcalde": "Adrián Rubalcava Suárez",
+    "alcalde_anterior":"Adrián Rubalcava Suárez"
+  },
+  {
+    "alcaldia_id": 15,
+    "alcaldia": "Cuauhtémoc",
+    "alcalde": "Sandra Xantall Cuevas Nieves",
+    "alcalde_anterior":"Néstor López Núñez"
+  },
+  {
+    "alcaldia_id": 5,
+    "alcaldia": "Gustavo A. Madero",
+    "alcalde": "Francisco Chiguil Figueroa",
+    "alcalde_anterior":"Francisco Chiguil Figueroa"
+  },
+  {
+    "alcaldia_id": 6,
+    "alcaldia": "Iztacalco",
+    "alcalde": "Raúl Armando Quintero Martínez",
+    "alcalde_anterior":"Armando Quintero"
+  },
+  {
+    "alcaldia_id": 7,
+    "alcaldia": "Iztapalapa",
+    "alcalde": "Clara Marina Brugada Molina",
+    "alcalde_anterior":"Clara Marina Brugada Molina"
+  },
+  {
+    "alcaldia_id": 8,
+    "alcaldia": "La Magdalena Contreras",
+    "alcalde": "Luis Gerardo Quijano Morales",
+    "alcalde_anterior":"Patricia Ximena Ortiz Couturier"
+  },
+  {
+    "alcaldia_id": 16,
+    "alcaldia": "Miguel Hidalgo",
+    "alcalde": "Mauricio Tabe Echartea",
+    "alcalde_anterior":"Víctor Hugo Romo"
+  },
+  {
+    "alcaldia_id": 9,
+    "alcaldia": "Milpa Alta",
+    "alcalde": "Judith Vanegas Tapia",
+    "alcalde_anterior":"Octavio Rivero Villaseñor"
+  },
+  {
+    "alcaldia_id": 11,
+    "alcaldia": "Tláhuac",
+    "alcalde": "Berenice Hernández Calderón",
+    "alcalde_anterior":"Raymundo Martínez Vite"
+  },
+  {
+    "alcaldia_id": 12,
+    "alcaldia": "Tlalpan",
+    "alcalde": "Alfa González Magallanes",
+    "alcalde_anterior":"Patricia Elena Aceves Pastrana"
+  },
+  {
+    "alcaldia_id": 17,
+    "alcaldia": "Venustiano Carranza",
+    "alcalde": "Evelyn Parra Álvarez",
+    "alcalde_anterior":"Julio César Moreno"
+  },
+  {
+    "alcaldia_id": 13,
+    "alcaldia": "Xochimilco",
+    "alcalde": "José Carlos Acosta Ruíz",
+    "alcalde_anterior":"José Carlos Acosta Ruiz"
+  }
+]
