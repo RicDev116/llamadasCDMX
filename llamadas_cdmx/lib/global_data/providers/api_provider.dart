@@ -1,13 +1,11 @@
 import 'dart:async';
-import 'dart:convert';
-
 import 'package:get/get.dart';
-
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:login_template/global_data/providers/db_provider.dart';
-import 'package:login_template/models/audio_model.dart';
-import 'package:login_template/src/Utils/utils.dart' as utils;
 import 'package:http/http.dart'as http;
+
+
+import 'package:login_template/models/encuesta_model.dart';
+import 'package:login_template/src/Utils/utils.dart' as utils;
 
 class API extends GetConnect {
 
@@ -23,8 +21,9 @@ class API extends GetConnect {
 
   Map get routes => {
         'version': '/api/version/actual',
-        'login': '/api/auth/login',
-        'logout': '/api/auth/logout',
+        'login': '/api/login',
+        'solicitar_numero':'/api/obtener_numero',
+        // 'logout': '/api/auth/logout',
         // 'catalogos': '/api/catalogos',
         'encuestas' :'/api/encuestas/guardar',
         'encuestas.validacion':'/api/encuestas/validacion',
@@ -40,16 +39,16 @@ class API extends GetConnect {
 
     Response _response;
     String _url;
-    
-    if(endPoint == 'cuotas'){
-      _url = this.routes[endPoint] + "/${body["id_encuesta"]}";
-    }else if(endPoint == 'cuotas.detalle'){
-      _url = this.routes[endPoint] + "/${body["id_encuesta"]}/${body["id_agrupador"]}";
-    }else if(endPoint == 'cuotas.detalle.seccion'){
-      _url = this.routes[endPoint] + "/${body["id_encuesta"]}/${body["seccion"]}";
-    }else{
-      _url = this.routes[endPoint];
-    }
+    _url = this.routes[endPoint];
+    // if(endPoint == 'cuotas'){
+    //   _url = this.routes[endPoint] + "/${body["id_encuesta"]}";
+    // }else if(endPoint == 'cuotas.detalle'){
+    //   _url = this.routes[endPoint] + "/${body["id_encuesta"]}/${body["id_agrupador"]}";
+    // }else if(endPoint == 'cuotas.detalle.seccion'){
+    //   _url = this.routes[endPoint] + "/${body["id_encuesta"]}/${body["seccion"]}";
+    // }else{
+    //   _url = this.routes[endPoint];
+    // }
     
     switch (method) {
       case 'post':
@@ -58,9 +57,17 @@ class API extends GetConnect {
             .timeout(const Duration(seconds: 10));
         break;
       case 'get':
-        _response = await get(_url, headers: headers)
-            .timeout(const Duration(seconds: 10));
-        break;
+      switch (endPoint) {
+        case "login":
+          _response = await get("$_url?email=${body["email"]}&password=${body["password"]}", headers: headers);
+          break;
+        case "solicitar_numero":
+          _response = await get("$_url?api_token=$body", headers: headers);
+          break;
+        default: 
+          _response = await get(_url, headers: headers);
+      }
+      break;
     }
     return _response;
   }
@@ -80,25 +87,23 @@ class API extends GetConnect {
   //   }
   //   return _response;
 
-  Future<http.Response> postAudio(AudioModel audio)async{
+  Future<http.Response> postAudio(EnucestaModel encuesta)async{
 
-    var uri = Uri.parse(httpClient.baseUrl+"/api/archivos/audios");
+    var uri = Uri.parse(httpClient.baseUrl+"/api/guardar_registro");
 
     final _request = http.MultipartRequest("POST",uri);
-    _request.fields["uuid"] = audio.uuid;
-    _request.fields["user_id"] = audio.userId.toString();
-    _request.files.add(await http.MultipartFile.fromPath("audio", audio.audioName));
-    _request.fields["latitude"] = audio.latitude;
-    _request.fields["longitude"] = audio.longitude;
-    _request.fields["imei"] = audio.imei;
-    _request.fields["created_at"] = audio.capturedAt.toString();
-    _request.fields["encuesta_id"] = audio.encuestaId.toString();
-    _request.fields["registro_id"] = audio.registroId.toString();
+    _request.fields["api_token"] = encuesta.apiToken;
+    _request.fields["registro_id"] = encuesta.registroId.toString();
+    _request.fields["status_id"] = encuesta.statusId.toString();
+    _request.fields["tiempo"] = encuesta.tiempo;
+    _request.fields["participara"] = encuesta.participara.toString();
+    _request.fields["latitud"] = encuesta.latitud;
+    _request.fields["longitud"] = encuesta.longitud;
+    _request.files.add(await http.MultipartFile.fromPath("audio", encuesta.audio));
     _request.headers.addAll(utils.contenType());
     print(_request.fields);
-    print(_request.files);
     final _streamResponse = await _request.send();
-    final _resp = await http.Response.fromStream(_streamResponse).timeout(const Duration(seconds: 10));
+    final _resp = await http.Response.fromStream(_streamResponse);
 
     return _resp;
   }
@@ -135,34 +140,34 @@ class API extends GetConnect {
   //   return false;
   // }
 
-  Future<bool>subirAudio(AudioModel _audio)async{
-    bool isOk;
-    try{
-      final _response = await postAudio(_audio).timeout(const Duration(seconds: 10));
-       final Map _responseEncoded = json.decode(_response.body);
-       final int _status = await utils.checkToken(json.decode(_response.body), false);
-       if(_status == 0){
-         print("Token caducado");
-         isOk = false;
-       }else if (_response.statusCode!=200 ||_responseEncoded["response"]["code"] == 1) {
-        print("Error");
-        print(_response.statusCode);
-        isOk = false;
-      }else if (_response.statusCode == 200){
-        DBProvider.db.updateAudio(_audio.registroId, _audio.encuestaId);
-        isOk = true;
-      }
-    }on TimeoutException catch(e){
-      print('Timeout: $e');
-      isOk = false;
-      //Get.back();
-    } on Error catch(e){
-      print('Error: $e');
-      isOk = false;
-      //Get.back();
-    }
-    return isOk;
-  }
+  // Future<bool>subirAudio(AudioModel _audio)async{
+  //   bool isOk;
+  //   try{
+  //     final _response = await postAudio(_audio).timeout(const Duration(seconds: 10));
+  //      final Map _responseEncoded = json.decode(_response.body);
+  //      final int _status = await utils.checkToken(json.decode(_response.body), false);
+  //      if(_status == 0){
+  //        print("Token caducado");
+  //        isOk = false;
+  //      }else if (_response.statusCode!=200 ||_responseEncoded["response"]["code"] == 1) {
+  //       print("Error");
+  //       print(_response.statusCode);
+  //       isOk = false;
+  //     }else if (_response.statusCode == 200){
+  //       DBProvider.db.updateAudio(_audio.registroId, _audio.encuestaId);
+  //       isOk = true;
+  //     }
+  //   }on TimeoutException catch(e){
+  //     print('Timeout: $e');
+  //     isOk = false;
+  //     //Get.back();
+  //   } on Error catch(e){
+  //     print('Error: $e');
+  //     isOk = false;
+  //     //Get.back();
+  //   }
+  //   return isOk;
+  // }
 
   // Future<bool> subirImagen(List<PhotoModel> _listPhotoModel,int _idEncuesta, bool isFromHome) async {
   //   final GlobalController globalController = Get.find<GlobalController>();

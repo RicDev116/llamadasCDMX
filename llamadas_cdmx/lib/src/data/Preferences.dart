@@ -58,9 +58,15 @@ class SharedPrefs {
     }
   }
 
+  void saveData(String user,String apiToken){
+    this.setData('String','email',user);
+    this.setData('String', 'token', apiToken);
+  }
+
   void preferencesSaveData(dynamic response){
     //var jsonResponse = json.decode(response.body);
     //return response.body;
+
     var user = response['data']['user'];
     var name = utils.name(
       user['name'] ?? "", user['paterno'] ?? "", user['materno'] ?? ""

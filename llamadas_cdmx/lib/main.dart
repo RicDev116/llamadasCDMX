@@ -21,6 +21,7 @@ void main() async {
   runApp(MyApp());
 }
 
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: '${DotEnv().env["APP_NAME"]}',
-      initialRoute: AppPages.LOGIN,
+      initialRoute: (sharedPrefs.token.isNotEmpty)?AppPages.HOME:AppPages.LOGIN,
       getPages: AppPages.routes,
       initialBinding: InitialBindings(),
       theme: companyThemeData,

@@ -4,8 +4,6 @@ import 'package:connectivity/connectivity.dart';
 import 'package:get/get.dart';
 import 'package:login_template/global_data/providers/api_provider.dart';
 import 'package:login_template/global_data/providers/db_provider.dart';
-import 'package:login_template/models/audio_model.dart';
-import 'package:login_template/src/Utils/notification_utils.dart';
 import 'package:login_template/src/Utils/utils.dart' as utils;
 import 'package:login_template/src/data/Preferences.dart';
 import 'package:login_template/src/theme/theme_app.dart';

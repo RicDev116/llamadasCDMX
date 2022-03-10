@@ -405,8 +405,8 @@ void initRecording() async {
 }
 
 //verifica si la grabacion esta activa:
-void checkRecording() {
-  (_mRecorder.isRecording) ? print("is recording") : print("is no recording");
+bool isRecordingActive() {
+  return _mRecorder.isRecording;
 }
 
 //DETIENE GRABACIÓN:

@@ -1,11 +1,9 @@
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'dart:async';
 
 import 'package:login_template/global_data/global_controller/global_controller.dart';
 import 'package:login_template/src/data/Preferences.dart';
-import 'package:login_template/src/Utils/utils.dart' as utils;
 
 final globalController = Get.find<GlobalController>();
 
@@ -94,34 +92,38 @@ class AppTheme {
   }
 
   static void logoutOnline(Function call) async {
-    print('logout online');
-    try {
-      final Response _response = await call(
-        'post',
-        'logout',
-        null,
-        utils.contenType(),
-      );
+    print('logout offline');
+    sharedPrefs.clean();
+    globalController.login = false;
+    Get.offAllNamed("/login");
+    // print('logout online');
+    // try {
+    //   final Response _response = await call(
+    //     'post',
+    //     'logout',
+    //     null,
+    //     utils.contenType(),
+    //   );
 
-      var status = await utils.checkToken(_response.body,false);
-      if (status == 0) {
-        print("Token caducado");
-      }else{
-        sharedPrefs.clean();
-        globalController.login = false;
-        Get.offAllNamed("/login");
-      }
-    } on TimeoutException catch (e) {
-      print('Timeout: $e');
-      sharedPrefs.clean();
-      globalController.login = false;
-      Get.offAllNamed("/login");
-    } on Error catch (e) {
-      print('Error: $e');
-      sharedPrefs.clean();
-      globalController.login = false;
-      Get.offAllNamed("/login");
-    }
+    //   var status = await utils.checkToken(_response.body,false);
+    //   if (status == 0) {
+    //     print("Token caducado");
+    //   }else{
+    //     sharedPrefs.clean();
+    //     globalController.login = false;
+    //     Get.offAllNamed("/login");
+    //   }
+    // } on TimeoutException catch (e) {
+    //   print('Timeout: $e');
+    //   sharedPrefs.clean();
+    //   globalController.login = false;
+    //   Get.offAllNamed("/login");
+    // } on Error catch (e) {
+    //   print('Error: $e');
+    //   sharedPrefs.clean();
+    //   globalController.login = false;
+    //   Get.offAllNamed("/login");
+    // }
   }
 
   static void logoutOffline() {
