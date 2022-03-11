@@ -157,6 +157,7 @@ class HomeView extends GetView<HomeController> {
                                           <String>[
                                             'Si participará',
                                             'No participará',
+                                            'No sabe/ No contesto'
                                           ].map((String value) {
                                             return new DropdownMenuItem<String>(
                                               value: value,

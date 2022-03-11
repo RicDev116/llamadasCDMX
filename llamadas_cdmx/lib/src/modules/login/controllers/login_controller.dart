@@ -18,8 +18,8 @@ class LoginController extends GetxController {
 
   final formKey = GlobalKey<FormState>();
 
-  final TextEditingController emailController = new TextEditingController(text: '1153');
-  final TextEditingController passwordController = new TextEditingController(text: '1536');
+  final TextEditingController emailController = new TextEditingController();
+  final TextEditingController passwordController = new TextEditingController();
   bool isLoadingDB = false;
 
   @override
@@ -74,11 +74,6 @@ class LoginController extends GetxController {
             AppDialogs.alertDialog(
               "Inicio de sesión",
               _response.body["message"],
-              // (_response.body["response"]["validation"].toString() == "[]")
-              //     ? _response.body["response"]["msg"].toString()
-              //     : _response.body["response"]["validation"]["email"]
-              //         .toString()
-              //         .replaceAll(RegExp(r"[^\s\w]"), ""),
             );
           } else if (_response.isOk) {
             print("Ok");
