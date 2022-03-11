@@ -13,198 +13,208 @@ class HomeView extends GetView<HomeController> {
       builder: (_) => new Scaffold(
         appBar: AppTheme.appBar( "${sharedPrefs.username}", controller.apiProvider.call, false),
         drawer: AppTheme.drawer(context, controller.apiProvider.call),
-        body: SingleChildScrollView(
+        body: controller.isLoading
+        ?Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisSize: MainAxisSize.max,
+          children: [
+            Center(
+              child: Column(
+                children: [
+                  Text("Cargando...",style: TextStyle(fontSize: 20)),
+                  CircularProgressIndicator(),
+                ],
+              ),
+            ),
+          ],
+        )
+        :SingleChildScrollView(
           child: Column(
             mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Builder(
-                builder: (context) => controller.isLoading
-                ? Center(
-                  child: CircularProgressIndicator()
-                )
-                : Column(
-                  children: [
-                    Text(controller.number??"",style: TextStyle(fontSize: 20),),
-                    (controller.number == null || controller.number.isEmpty)
-                    ?Center(
-                      child: Column(
-                        children: [
-                          TextButton(
-                            onPressed: () => _.solicitarNumero(), 
-                            child: Container(
-                              child: Text("Solicitar número"),
-                            ),
-                          ),
-                          TextButton(
-                            onPressed: () => _.consultarCuotas(), 
-                            child: Container(
-                              child: Text("Contador de llamadas",style: TextStyle(color: Colors.blueAccent)),
-                            ),
-                          ),
-                        ],
-                      ),
-                    )
-                    :Column(
+              Column(
+                children: [
+                  Text(controller.number??"",style: TextStyle(fontSize: 20),),
+                  (controller.number == null || controller.number.isEmpty)
+                  ?Center(
+                    child: Column(
                       children: [
-                        Card(
-                          margin: EdgeInsets.all(20),
-                          // width: utils.porcientoW(context, 80),
-                          // color: Colors.red,
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Text(
-                              '¡Hola que tal! Le llamo de la asociación Que Siga la Democracia,'+
-                              '\n¿Sabías que la pensión de adulto mayor la da el presidente de la República?'+
-                              '\n¿Qué en el 2024 llegará a seis mil pesos bimestrales?'+
-                              '\n¿Sabías que el 10 de abril se va a realizar una ratificación del presidente Andrés Manuel López Obrador?'+
-                              '\nSi no quieres que llegue otro gobierno y nos quite los apoyos y lo conquistado, entonces…',
-                              style: TextStyle(fontSize: 15),
-                              textAlign: TextAlign.start,
-                            ),
+                        TextButton(
+                          onPressed: () => _.solicitarNumero(), 
+                          child: Container(
+                            child: Text("Solicitar número"),
                           ),
-                        ),
-                        Text("¡Sal a votar este próximo 10 de abril! '",style: TextStyle(color: Colors.blue,fontWeight: FontWeight.bold,fontSize: 20)),
-                        SizedBox(height: 20),
-                        Container(
-                          width: double.infinity,
-                          margin: EdgeInsets.only(left: 20),
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Column(
-                              children: [
-                                Text("Estado de la llamada",style: TextStyle(color: Colors.black),textAlign: TextAlign.start),
-                                Container(
-                                  width: utils.porcientoW(context, 70),
-                                  child: DropdownButton<String>(
-                                    value: controller.tipoCaptura,
-                                    elevation: 8,
-                                    itemHeight: 60,
-                                    icon: Icon(Icons.arrow_drop_down_circle),
-                                    iconDisabledColor: Colors.red,
-                                    iconEnabledColor: Colors.green,
-                                    isExpanded: true,
-                                    hint: Text(
-                                      "Selecciona (*)",
-                                      style: TextStyle(
-                                        color: Colors.black38,
-                                        fontSize: 20,
-                                        fontWeight: FontWeight.w500),
-                                    ),
-                                    style: TextStyle(
-                                      color: Colors.green,
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                    items:
-                                    <String>[
-                                      'No existe',
-                                      'No contesta',
-                                      'Rechazo',
-                                      'Efectiva',
-                                      'Abandono',
-                                    ].map((String value) {
-                                      return new DropdownMenuItem<String>(
-                                        value: value,
-                                        child: new Text(value),
-                                      );
-                                    }).toList(),
-                                    onChanged: (value) {
-                                      _.changeValueDrop(value,"estado");
-                                      print(_.tipoCaptura);
-                                    },
-                                  ),
-                                ),
-                              ],
-                            ),
-                          )
-                        ),
-                        Builder(
-                          builder: (_){
-                            if(controller.tipoCaptura == 'Efectiva'){
-                              return Container(
-                                width: double.infinity,
-                                margin: EdgeInsets.only(left: 20),
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Column(
-                                    children: [
-                                      Text("¿Participará?",style: TextStyle(color: Colors.black),textAlign: TextAlign.start),
-                                      Container(
-                                        width: utils.porcientoW(context, 70),
-                                        child: DropdownButton<String>(
-                                          value: controller.participara,
-                                          elevation: 8,
-                                          itemHeight: 60,
-                                          icon: Icon(Icons.arrow_drop_down_circle),
-                                          iconDisabledColor: Colors.red,
-                                          iconEnabledColor: Colors.green,
-                                          isExpanded: true,
-                                          hint: Text(
-                                            "Selecciona (*)",
-                                            style: TextStyle(
-                                              color: Colors.black38,
-                                              fontSize: 20,
-                                              fontWeight: FontWeight.w500),
-                                          ),
-                                          style: TextStyle(
-                                            color: Colors.green,
-                                            fontSize: 20,
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                          items:
-                                          <String>[
-                                            'Si participará',
-                                            'No participará',
-                                            'No sabe/ No contestó'
-                                          ].map((String value) {
-                                            return new DropdownMenuItem<String>(
-                                              value: value,
-                                              child: new Text(value),
-                                            );
-                                          }).toList(),
-                                          onChanged: (value) {
-                                            controller.changeValueDrop(value,"participara");
-                                            print(controller.tipoCaptura);
-                                          },
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                )
-                              );
-                            }else{
-                              controller.participara = null;
-                              return SizedBox();
-                            }
-                          }
                         ),
                         TextButton(
-                          onPressed: () => _.llamar(), 
+                          onPressed: () => _.consultarCuotas(), 
                           child: Container(
-                            child: Text("Llamar",style: TextStyle(color: Colors.blue),),
+                            child: Text("Contador de llamadas",style: TextStyle(color: Colors.blueAccent)),
                           ),
                         ),
-                        Builder(
-                          builder: (context){
-                            if((controller.tipoCaptura != null && controller.tipoCaptura != "Efectiva") || (controller.tipoCaptura != null && controller.tipoCaptura == "Efectiva" && controller.participara!= null) ){
-                              return TextButton(
-                                onPressed: () => _.enviar(), 
-                                child: Container(
-                                  child: Text("Enviar",style: TextStyle(color: Colors.green),),
-                                ),
-                              );
-                            }else{
-                              return SizedBox();
-                            }
-                          }
-                        ),
                       ],
-                    )
-                  ],
-                )
+                    ),
+                  )
+                  :Column(
+                    children: [
+                      Card(
+                        margin: EdgeInsets.all(20),
+                        // width: utils.porcientoW(context, 80),
+                        // color: Colors.red,
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            '¡Hola que tal! Le llamo de la asociación Que Siga la Democracia,'+
+                            '\n¿Sabías que la pensión de adulto mayor la da el presidente de la República?'+
+                            '\n¿Qué en el 2024 llegará a seis mil pesos bimestrales?'+
+                            '\n¿Sabías que el 10 de abril se va a realizar una ratificación del presidente Andrés Manuel López Obrador?'+
+                            '\nSi no quieres que llegue otro gobierno y nos quite los apoyos y lo conquistado, entonces…',
+                            style: TextStyle(fontSize: 15),
+                            textAlign: TextAlign.start,
+                          ),
+                        ),
+                      ),
+                      Text("¡Sal a votar este próximo 10 de abril! '",style: TextStyle(color: Colors.blue,fontWeight: FontWeight.bold,fontSize: 20)),
+                      SizedBox(height: 20),
+                      Container(
+                        width: double.infinity,
+                        margin: EdgeInsets.only(left: 20),
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Column(
+                            children: [
+                              Text("Estado de la llamada",style: TextStyle(color: Colors.black),textAlign: TextAlign.start),
+                              Container(
+                                width: utils.porcientoW(context, 70),
+                                child: DropdownButton<String>(
+                                  value: controller.tipoCaptura,
+                                  elevation: 8,
+                                  itemHeight: 60,
+                                  icon: Icon(Icons.arrow_drop_down_circle),
+                                  iconDisabledColor: Colors.red,
+                                  iconEnabledColor: Colors.green,
+                                  isExpanded: true,
+                                  hint: Text(
+                                    "Selecciona (*)",
+                                    style: TextStyle(
+                                      color: Colors.black38,
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.w500),
+                                  ),
+                                  style: TextStyle(
+                                    color: Colors.green,
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                  items:
+                                  <String>[
+                                    'No existe',
+                                    'No contesta',
+                                    'Rechazo',
+                                    'Efectiva',
+                                    'Abandono',
+                                  ].map((String value) {
+                                    return new DropdownMenuItem<String>(
+                                      value: value,
+                                      child: new Text(value),
+                                    );
+                                  }).toList(),
+                                  onChanged: (value) {
+                                    _.changeValueDrop(value,"estado");
+                                    print(_.tipoCaptura);
+                                  },
+                                ),
+                              ),
+                            ],
+                          ),
+                        )
+                      ),
+                      Builder(
+                        builder: (_){
+                          if(controller.tipoCaptura == 'Efectiva'){
+                            return Container(
+                              width: double.infinity,
+                              margin: EdgeInsets.only(left: 20),
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  children: [
+                                    Text("¿Participará?",style: TextStyle(color: Colors.black),textAlign: TextAlign.start),
+                                    Container(
+                                      width: utils.porcientoW(context, 70),
+                                      child: DropdownButton<String>(
+                                        value: controller.participara,
+                                        elevation: 8,
+                                        itemHeight: 60,
+                                        icon: Icon(Icons.arrow_drop_down_circle),
+                                        iconDisabledColor: Colors.red,
+                                        iconEnabledColor: Colors.green,
+                                        isExpanded: true,
+                                        hint: Text(
+                                          "Selecciona (*)",
+                                          style: TextStyle(
+                                            color: Colors.black38,
+                                            fontSize: 20,
+                                            fontWeight: FontWeight.w500),
+                                        ),
+                                        style: TextStyle(
+                                          color: Colors.green,
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                        items:
+                                        <String>[
+                                          'Si participará',
+                                          'No participará',
+                                          'No sabe/ No contestó'
+                                        ].map((String value) {
+                                          return new DropdownMenuItem<String>(
+                                            value: value,
+                                            child: new Text(value),
+                                          );
+                                        }).toList(),
+                                        onChanged: (value) {
+                                          controller.changeValueDrop(value,"participara");
+                                          print(controller.tipoCaptura);
+                                        },
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              )
+                            );
+                          }else{
+                            controller.participara = null;
+                            return SizedBox();
+                          }
+                        }
+                      ),
+                      TextButton(
+                        onPressed: () => _.llamar(), 
+                        child: Container(
+                          child: Text("Llamar",style: TextStyle(color: Colors.blue),),
+                        ),
+                      ),
+                      Builder(
+                        builder: (context){
+                          if((controller.tipoCaptura != null && controller.tipoCaptura != "Efectiva") || (controller.tipoCaptura != null && controller.tipoCaptura == "Efectiva" && controller.participara!= null) ){
+                            return TextButton(
+                              onPressed: () => _.enviar(), 
+                              child: Container(
+                                child: Text("Enviar",style: TextStyle(color: Colors.green),),
+                              ),
+                            );
+                          }else{
+                            return SizedBox();
+                          }
+                        }
+                      ),
+                    ],
+                  )
+                ],
               ),
+              
               Text("total_llamadas ${controller.statusLlamadas["total_llamadas"]}",style: TextStyle(fontSize: 20),),
               Text("efectivas ${controller.statusLlamadas["efectivas"]}",style: TextStyle(fontSize: 20),),
               Text("no_existe ${controller.statusLlamadas["no_existe"]}",style: TextStyle(fontSize: 20),),

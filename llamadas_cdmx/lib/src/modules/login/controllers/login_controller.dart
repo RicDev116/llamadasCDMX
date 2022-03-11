@@ -66,7 +66,7 @@ class LoginController extends GetxController {
           // 'longitude': _location.longitude.toString(),
         };
         try {
-          Response _response =await _apiProvider.call("get", "login", data, null).timeout(const Duration(seconds: 10));
+          Response _response =await _apiProvider.call("get", "login", data, null).timeout(const Duration(seconds: 30));
           // print(_response.body["response"]);
           Get.back(); 
           if (_response.status.hasError ||_response.body["error"] != 0) {

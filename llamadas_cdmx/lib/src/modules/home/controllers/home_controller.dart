@@ -65,11 +65,21 @@ class HomeController extends GetxController {
     this.isLoading = true;
     update(["phone-number"]);
     print("Solicitando número...");
-    final Response _response = await apiProvider.call("get", "solicitar_numero",sharedPrefs.token, null);
-    final jsonResponse = jsonDecode(_response.body);
-    this.registroId = jsonResponse["registro_id"];
-    this.number = jsonResponse["telefono"];
-    this.isLoading = false;
+    try {
+      final Response _response = await apiProvider.call("get", "solicitar_numero",sharedPrefs.token, null).timeout(const Duration(seconds: 30));
+      if(_response.isOk){
+        final jsonResponse = jsonDecode(_response.body);
+        this.registroId = jsonResponse["registro_id"];
+        this.number = jsonResponse["telefono"];
+        this.isLoading = false;
+      }
+    }on TimeoutException catch (e) {
+      print(e);
+      AppDialogs.alertDialog("Encuesta", "Verifica tú conexión a internet \n$e");
+    }on Error catch(e){
+      print(e);
+      AppDialogs.alertDialog("Error", "$e");
+    }
     update(["phone-number"]);
   }
 
