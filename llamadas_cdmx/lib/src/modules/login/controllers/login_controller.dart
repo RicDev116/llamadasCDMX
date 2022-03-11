@@ -53,7 +53,7 @@ class LoginController extends GetxController {
     } else {
       if (globalController.connectionStatus != ConnectivityResult.none) {
         await utils.initGeolocation();
-        AppDialogs.loadDialog('Semanal Territorial', 'Iniciando sesión');
+        AppDialogs.loadDialog('Llamadas', 'Iniciando sesión');
         print("Login en curso...");
         final LocationData _location = await utils.getLocation();
         sharedPrefs.preferencesSaveLocation(_location.longitude, _location.latitude);
