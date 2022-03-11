@@ -40,7 +40,7 @@ class HomeView extends GetView<HomeController> {
                           TextButton(
                             onPressed: () => _.consultarCuotas(), 
                             child: Container(
-                              child: Text("Consultar cuotas",style: TextStyle(color: Colors.blueAccent)),
+                              child: Text("Contador de llamadas",style: TextStyle(color: Colors.blueAccent)),
                             ),
                           ),
                         ],
@@ -157,7 +157,7 @@ class HomeView extends GetView<HomeController> {
                                           <String>[
                                             'Si participará',
                                             'No participará',
-                                            'No sabe/ No contesto'
+                                            'No sabe/ No contestó'
                                           ].map((String value) {
                                             return new DropdownMenuItem<String>(
                                               value: value,
