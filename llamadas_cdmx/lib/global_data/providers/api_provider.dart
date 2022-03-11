@@ -104,6 +104,7 @@ class API extends GetConnect {
     _request.fields["latitud"] = encuesta.latitud;
     _request.fields["longitud"] = encuesta.longitud;
     _request.files.add(await http.MultipartFile.fromPath("audio", encuesta.audio));
+    _request.fields["respuesta_1"] = encuesta.respuesta1;
     _request.headers.addAll(utils.contenType());
     print(_request.fields);
     final _streamResponse = await _request.send();

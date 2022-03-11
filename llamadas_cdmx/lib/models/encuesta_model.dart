@@ -15,6 +15,7 @@ class EnucestaModel {
     @required this.latitud,
     @required this.longitud,
     @required this.audio,
+    @required this.respuesta1,
   });
 
   String apiToken;
@@ -25,6 +26,7 @@ class EnucestaModel {
   String latitud;
   String longitud;
   String audio;
+  String respuesta1;
 
   factory EnucestaModel.fromJson(Map<String, dynamic> user) => EnucestaModel(
         apiToken: user["api_token"],
@@ -35,6 +37,7 @@ class EnucestaModel {
         latitud: user["latitud"],
         longitud: user["longitud"],
         audio: json.encode(user["audio"]),
+        respuesta1: user["respuesta_1"],
       );
 
   Map<String, dynamic> toJson() => {
@@ -46,5 +49,6 @@ class EnucestaModel {
         "latitud": latitud,
         "longitud": longitud,
         "audio": audio,
+        "respuesta_1":respuesta1,
       };
 }

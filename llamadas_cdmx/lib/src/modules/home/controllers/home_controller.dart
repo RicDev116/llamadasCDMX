@@ -106,6 +106,7 @@ class HomeController extends GetxController {
       latitud: _location.latitude.toString(), 
       longitud: _location.longitude.toString(), 
       audio: _audioName,
+      respuesta1: participara,
     );
     try {
       final _resp = await apiProvider.postAudio(_encuesta).timeout(const Duration(seconds: 10));
