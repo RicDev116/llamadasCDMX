@@ -11,117 +11,119 @@ class LoginView extends GetView<LoginController> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      backgroundColor: Colors.blueGrey,
-      body: Container(
-        decoration: BoxDecoration(
-            boxShadow: [
-              BoxShadow(
-                  color: Colors.black38,
-                  blurRadius: 25.0,
-                  spreadRadius: 5.0,
-                  offset: Offset(15.0, 15.0))
-            ],
-            color: Colors.grey.shade800,
-            borderRadius: BorderRadius.circular(10)),
-        margin: EdgeInsets.only(
-          top: 60,
-          left: 10,
-          right: 10,
-        ),
-        padding: EdgeInsets.only(left: 30, right: 30),
-        child: Form(
-          child: SingleChildScrollView(
-            child: Column(
-              children: [
-                SizedBox(
-                  height: 40,
-                ),
-                // Container(
-                //   child: Image.asset(
-                //     'assets/logo_app_ex.png',
-                //     height: 80,
-                //   ),
-                // ),
-                // Container(
-                //   child: Image.asset(
-                //     'assets/icono.png',
-                //     height: 150,
-                //   ),
-                // ),
-                SizedBox(
-                  height: 1,
-                ),
-                HeaderSection(),
-                TextSection(),
-                ButtonSection(login: controller.login),
-                SizedBox(
-                  height: 30,
-                ),
-                GetBuilder<GlobalController>(
-                  id: ("Login"),
-                  builder: (_) => Text(
-                      (controller.globalController.connectionStatus ==
-                              ConnectivityResult.none)
-                          ? "MODO: Fuera de línea"
-                          : "MODO: En línea",
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          color:
-                              (controller.globalController.connectionStatus ==
-                                      ConnectivityResult.none)
-                                  ? Colors.red
-                                  : Colors.green)),
-                ),
-                SizedBox(
-                  height: utils.porcientoH(context, 20),
-                ),
-
-                // Container(
-                //   decoration: BoxDecoration(
-                //     color: Color.fromRGBO(6, 71, 54, 8),
-                //     borderRadius: BorderRadius.circular(15),
-                //   ),
-                //   margin: EdgeInsets.only(top: 1.0),
-                //   padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
-                //   height: utils.porcientoH(context, 31),
-                //   child: Padding(
-                //     padding: const EdgeInsets.all(18.0),
-                //     child: Center(
-                //       child: Column(
-                //         children: <Widget>[
-                //           Image.asset(
-                //             'assets/actualizar.png',
-                //             width: 80,
-                //           ),
-                //           Text(
-                //             "ACTUALIZAR APLICACIÓN",
-                //             style: TextStyle(
-                //                 fontSize: 20.0,
-                //                 color: Colors.white,
-                //                 fontWeight: FontWeight.bold),
-                //           ),
-                //           IconButton(
-                //             onPressed: (){},
-                //             padding: EdgeInsets.symmetric(
-                //                 vertical: 20, horizontal: 0),
-                //             icon: Icon(
-                //               Icons.cloud_download,
-                //               color: Colors.white,
-                //               size: 60,
-                //             ),
-                //           ),
-                //         ],
-                //       ),
-                //     ),
-                //   ),
-                // ),
-                Text('Versión: ${DotEnv().env["APP_VERSION"]}',
-                    style: TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.bold)),
-                SizedBox(
-                  height: utils.porcientoH(context, 3),
-                ),
+      backgroundColor: Colors.blueGrey[100],
+      body: Center(
+        child: Container(
+          decoration: BoxDecoration(
+              boxShadow: [
+                BoxShadow(
+                    color: Colors.black38,
+                    blurRadius: 25.0,
+                    spreadRadius: 5.0,
+                    offset: Offset(15.0, 15.0))
               ],
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(10)),
+          margin: EdgeInsets.only(
+            top: 60,
+            left: 10,
+            right: 10,
+          ),
+          padding: EdgeInsets.only(left: 30, right: 30),
+          child: Form(
+            child: SingleChildScrollView(
+              child: Column(
+                children: [
+                  SizedBox(
+                    height: 40,
+                  ),
+                  // Container(
+                  //   child: Image.asset(
+                  //     'assets/logo_app_ex.png',
+                  //     height: 80,
+                  //   ),
+                  // ),
+                  // Container(
+                  //   child: Image.asset(
+                  //     'assets/icono.png',
+                  //     height: 150,
+                  //   ),
+                  // ),
+                  SizedBox(
+                    height: 1,
+                  ),
+                  HeaderSection(),
+                  TextSection(),
+                  ButtonSection(login: controller.login),
+                  SizedBox(
+                    height: 30,
+                  ),
+                  GetBuilder<GlobalController>(
+                    id: ("Login"),
+                    builder: (_) => Text(
+                        (controller.globalController.connectionStatus ==
+                                ConnectivityResult.none)
+                            ? "MODO: Fuera de línea"
+                            : "MODO: En línea",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color:
+                                (controller.globalController.connectionStatus ==
+                                        ConnectivityResult.none)
+                                    ? Colors.red
+                                    : Colors.green)),
+                  ),
+                  SizedBox(
+                    height: utils.porcientoH(context, 20),
+                  ),
+
+                  // Container(
+                  //   decoration: BoxDecoration(
+                  //     color: Color.fromRGBO(6, 71, 54, 8),
+                  //     borderRadius: BorderRadius.circular(15),
+                  //   ),
+                  //   margin: EdgeInsets.only(top: 1.0),
+                  //   padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+                  //   height: utils.porcientoH(context, 31),
+                  //   child: Padding(
+                  //     padding: const EdgeInsets.all(18.0),
+                  //     child: Center(
+                  //       child: Column(
+                  //         children: <Widget>[
+                  //           Image.asset(
+                  //             'assets/actualizar.png',
+                  //             width: 80,
+                  //           ),
+                  //           Text(
+                  //             "ACTUALIZAR APLICACIÓN",
+                  //             style: TextStyle(
+                  //                 fontSize: 20.0,
+                  //                 color: Colors.white,
+                  //                 fontWeight: FontWeight.bold),
+                  //           ),
+                  //           IconButton(
+                  //             onPressed: (){},
+                  //             padding: EdgeInsets.symmetric(
+                  //                 vertical: 20, horizontal: 0),
+                  //             icon: Icon(
+                  //               Icons.cloud_download,
+                  //               color: Colors.white,
+                  //               size: 60,
+                  //             ),
+                  //           ),
+                  //         ],
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
+                  Text('Versión: ${DotEnv().env["APP_VERSION"]}',
+                      style: TextStyle(
+                          color: Colors.black, fontWeight: FontWeight.bold)),
+                  SizedBox(
+                    height: utils.porcientoH(context, 3),
+                  ),
+                ],
+              ),
             ),
           ),
         ),
@@ -170,6 +172,7 @@ class TextSection extends StatelessWidget {
               controller: _controller.emailController,
               icon: Icons.email,
               hintText: 'Correo',
+              themeColor: Colors.black,
               // validator: (value)=>(!utils.validarEmail(value))
               // ?'El correo no es valido'
               // :null
@@ -187,6 +190,7 @@ class TextSection extends StatelessWidget {
                   obscureText: _.showPassword,
                   controller: _controller.passwordController,
                   icon: Icons.lock,
+                  themeColor: Colors.black,
                   hintText: 'Contraseña',
                   validator: (value) => (value.length < 4)
                       ? 'La contraseña debe ser de al menos 4 caracteres'
@@ -231,14 +235,14 @@ class MiTextFormField extends StatelessWidget {
         controller: this.controller,
         cursorColor: this.themeColor,
         obscureText: this.obscureText,
-        style: TextStyle(color: Colors.white),
+        style: TextStyle(color: this.themeColor),
         // style: TextStyle(color: Colors.red[800]),
         decoration: InputDecoration(
             errorText: msgError,
-            icon: Icon(this.icon, color: Colors.white),
+            icon: Icon(this.icon, color: this.themeColor),
             // icon: Icon(this.icon, color: Colors.red[800]),
             hintText: this.hintText,
-            hintStyle: TextStyle(color: Colors.white),
+            hintStyle: TextStyle(color: this.themeColor),
             // hintStyle: TextStyle(color: Colors.red[800]),
             suffix: IconButton(
               onPressed: () => changeValue(),
@@ -249,15 +253,15 @@ class MiTextFormField extends StatelessWidget {
               ),
             ),
             enabledBorder: UnderlineInputBorder(
-              borderSide: BorderSide(color: Colors.white),
+              borderSide: BorderSide(color: this.themeColor),
               // borderSide: BorderSide(color: Colors.red[800]),
             ),
             focusedBorder: UnderlineInputBorder(
-              borderSide: BorderSide(color: Colors.white),
+              borderSide: BorderSide(color: this.themeColor),
               // borderSide: BorderSide(color: Colors.red[800]),
             ),
             border: UnderlineInputBorder(
-              borderSide: BorderSide(color: Colors.white),              
+              borderSide: BorderSide(color: this.themeColor),              
               // borderSide: BorderSide(color: Colors.red[800]),
             )) // )),
         );

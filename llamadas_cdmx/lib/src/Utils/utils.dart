@@ -400,7 +400,7 @@ void initRecording() async {
   await _mRecorder.openAudioSession();
   _mRecorder.startRecorder(
     toFile: _mPath,
-    //codec: kIsWeb ? Codec.opusWebM : Codec.aacADTS,
+    codec: Codec.aacADTS,
   );
 }
 

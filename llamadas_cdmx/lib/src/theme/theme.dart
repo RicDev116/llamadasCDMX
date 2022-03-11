@@ -13,12 +13,7 @@ ThemeData companyThemeData = new ThemeData(
       bodyText2: TextStyle(fontSize: 10.0, fontFamily: 'Hind'),
     ),
 
-
-
-
-
-    primarySwatch:
-        MaterialColor(ColorAplicacion.blue[50].value, ColorAplicacion.blue),
+    primarySwatch:MaterialColor(ColorAplicacion.blue[50].value, ColorAplicacion.blue),
     primaryColor: ColorAplicacion.blue[500],
     primaryColorBrightness: Brightness.light,
     accentColor: ColorAplicacion.green[300],

@@ -1,4 +1,4 @@
-package mx.gob.cdmx.territorial.semanal
+package mx.gob.cdmx.calls
 
 import io.flutter.embedding.android.FlutterActivity
 

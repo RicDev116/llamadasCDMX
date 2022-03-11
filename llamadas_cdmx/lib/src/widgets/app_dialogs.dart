@@ -69,29 +69,29 @@ class AppDialogs {
         context: Get.context,
         builder: (BuildContext context) {
           return SimpleDialog(
+            backgroundColor: Colors.white,
             title: Center(
                 child: Text(
               title,
               style: TextStyle(
-                color: Colors.white,
+                color: Colors.black,
                 fontWeight: FontWeight.bold,
                 fontSize: 20,
               ),
             )),
-            backgroundColor: Colors.teal.shade900,
+            // backgroundColor: Colors.teal.shade900,
             children: [
               Column(
                 children: [
                   CircularProgressIndicator(
                     strokeWidth: 5,
-                    backgroundColor: Colors.lightGreen.shade700,
                     valueColor:
                         new AlwaysStoppedAnimation<Color>(Colors.cyan.shade600),
                   ),
                   Text(
                     msg,
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                       fontSize: 18,
                     ),
                   ),
@@ -212,12 +212,12 @@ class AppDialogs {
                 child: Text(
               title,
               style: TextStyle(
-                color: Colors.teal.shade800,
+                color: Colors.black,
                 fontWeight: FontWeight.bold,
                 fontSize: 16,
               ),
             )),
-            backgroundColor: Colors.green.shade100,
+            backgroundColor: Colors.white,
             content: Text(
               msg,
               style: TextStyle(

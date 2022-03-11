@@ -20,16 +20,17 @@ class API extends GetConnect {
 
 
   Map get routes => {
-        'version': '/api/version/actual',
+        // 'version': '/api/version/actual',
         'login': '/api/login',
         'solicitar_numero':'/api/obtener_numero',
+        'consultas':'/api/consulta_diaria',
         // 'logout': '/api/auth/logout',
         // 'catalogos': '/api/catalogos',
-        'encuestas' :'/api/encuestas/guardar',
-        'encuestas.validacion':'/api/encuestas/validacion',
-        'audios':'/api/archivos/audios',
+        // 'encuestas' :'/api/encuestas/guardar',
+        // 'encuestas.validacion':'/api/encuestas/validacion',
+        // 'audios':'/api/archivos/audios',
         // 'fotos': '/api/archivos/fotos',
-        'ubicame':'/api/location/ubicame',
+        // 'ubicame':'/api/location/ubicame',
         // 'cuotas' : '/api/encuestas/cuotas',
         // 'cuotas.detalle' : '/api/encuestas/cuotas/detalles',
         // 'cuotas.detalle.seccion' : '/api/encuestas/cuotas/detallesbyseccion',
@@ -62,6 +63,9 @@ class API extends GetConnect {
           _response = await get("$_url?email=${body["email"]}&password=${body["password"]}", headers: headers);
           break;
         case "solicitar_numero":
+          _response = await get("$_url?api_token=$body", headers: headers);
+          break;
+        case "consultas":
           _response = await get("$_url?api_token=$body", headers: headers);
           break;
         default: 

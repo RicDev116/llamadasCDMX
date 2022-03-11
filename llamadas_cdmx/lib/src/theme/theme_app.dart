@@ -40,7 +40,7 @@ class AppTheme {
           new Divider(),
           new ListTile(
             title: new Text("Inicio"),
-            trailing: new Icon(Icons.home, color: Colors.greenAccent.shade400,),
+            trailing: new Icon(Icons.home,),
             onTap: () => Get.offNamed('/home'),
           ),
           // new Divider(),
@@ -65,7 +65,7 @@ class AppTheme {
           new Divider(),
           new ListTile(
             title: new Text("Salir"),
-            trailing: new Icon(Icons.exit_to_app, color: Colors.greenAccent.shade400,),
+            trailing: new Icon(Icons.exit_to_app,),
             onTap: () => (globalController.connectionStatus != ConnectivityResult.none)
               ? AppTheme.logoutOnline(call)
               : AppTheme.logoutOffline()

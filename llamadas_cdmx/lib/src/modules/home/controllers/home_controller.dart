@@ -37,6 +37,15 @@ class HomeController extends GetxController {
     'Abandono':6
   };
 
+  Map statusLlamadas = {
+    "total_llamadas":0,
+    "efectivas":0,
+    "no_existe":0,
+    "no_contesta":0,
+    "rechazo":0,
+    "abandono":0,
+  };
+
   @override
   void onInit() async {
     super.onInit();
@@ -110,6 +119,31 @@ class HomeController extends GetxController {
         this.tipoCaptura = null;
         this.participara = null;
         await AppDialogs.alertDialog("Encuesta", "¡Encuesta subida con éxito!");
+      }
+    }on TimeoutException catch (e) {
+      print(e);
+      AppDialogs.alertDialog("Encuesta", "Verifica tú conexión a internet \n$e");
+    }on Error catch (e){
+       AppDialogs.alertDialog("Error", "$e");
+      print(e);
+    }
+    isLoading = false;
+    update(["phone-number"]);
+  }
+
+  void consultarCuotas()async{
+    isLoading = true;
+    update(["phone-number"]);
+    try {
+      final Response _resp = await apiProvider.call("get", "consultas", sharedPrefs.token, null);
+      final _jsonResponse = jsonDecode(_resp.body);
+      if(_resp.statusCode == 200 && _resp.bodyString.isNotEmpty){
+        this.statusLlamadas["total_llamadas"] = _jsonResponse["total_llamadas"];
+        this.statusLlamadas["efectivas"] = _jsonResponse["efectivas"];
+        this.statusLlamadas["no_existe"] = _jsonResponse["no_existe"];
+        this.statusLlamadas["no_contesta"] = _jsonResponse["no_contesta"];
+        this.statusLlamadas["rechazo"] = _jsonResponse["rechazo"];
+        this.statusLlamadas["abandono"] = _jsonResponse["abandono"];
       }
     }on TimeoutException catch (e) {
       print(e);
