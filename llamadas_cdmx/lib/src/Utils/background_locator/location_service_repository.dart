@@ -91,21 +91,21 @@ class LocationServiceRepository {
       final coordinates = new Coordinates(data.latitude, data.longitude);
       final addresses = await Geocoder.local.findAddressesFromCoordinates(coordinates);
       final address = addresses.first.addressLine;
-      LocationInf _info = new LocationInf(
-        token: '${DotEnv().env["API_WEB_SERVICE"]}', 
-        imei: identifier, 
-        latitude: data.latitude.toString(), 
-        longitude: data.longitude.toString(), 
-        data: address, 
-        project: '${DotEnv().env["APP_VERSION"]}',
-        enviado: 0,
-      );
+      // LocationInf _info = new LocationInf(
+      //   token: '${DotEnv().env["API_WEB_SERVICE"]}', 
+      //   imei: identifier, 
+      //   latitude: data.latitude.toString(), 
+      //   longitude: data.longitude.toString(), 
+      //   data: address, 
+      //   project: '${DotEnv().env["APP_VERSION"]}',
+      //   enviado: 0,
+      // );
       
-      final uri = DotEnv().env["API_PROTOCOL"] == 'https'
-        ? Uri.https('${DotEnv().env["API_HOST"]}', 'api/location/set')
-        : Uri.http('${DotEnv().env["API_HOST"]}', 'api/location/set');
-        final String _dataInf = locationInfToJson(_info);
-      await http.post(uri, body: _dataInf);
+      // final uri = DotEnv().env["API_PROTOCOL"] == 'https'
+      //   ? Uri.https('${DotEnv().env["API_HOST"]}', 'api/location/set')
+      //   : Uri.http('${DotEnv().env["API_HOST"]}', 'api/location/set');
+      //   final String _dataInf = locationInfToJson(_info);
+      // await http.post(uri, body: _dataInf);
 
       // if(await databaseExists(path) && DBProvider.db.isLoadingDB == false){
       //   final _gblCtrl = Get.find<GlobalController>();

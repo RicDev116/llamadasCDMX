@@ -79,6 +79,8 @@ class HomeController extends GetxController {
     }on Error catch(e){
       print(e);
       AppDialogs.alertDialog("Error", "$e");
+    }finally{
+      print("Todo ok");
     }
     update(["phone-number"]);
   }
@@ -119,7 +121,7 @@ class HomeController extends GetxController {
       respuesta1: participara??"",
     );
     try {
-      final _resp = await apiProvider.postAudio(_encuesta).timeout(const Duration(seconds: 10));
+      final _resp = await apiProvider.postAudio(_encuesta).timeout(const Duration(minutes: 10));
       final jsonResponse = jsonDecode(_resp.body);
       if(_resp.statusCode == 200 && jsonResponse["message"] == "Registro insertado"){
         timer.cancel();
@@ -146,7 +148,7 @@ class HomeController extends GetxController {
     isLoading = true;
     update(["phone-number"]);
     try {
-      final Response _resp = await apiProvider.call("get", "consultas", sharedPrefs.token, null);
+      final Response _resp = await apiProvider.call("get", "consultas", sharedPrefs.token, null).timeout(Duration(seconds: 30));
       final _jsonResponse = jsonDecode(_resp.body);
       if(_resp.statusCode == 200 && _resp.bodyString.isNotEmpty){
         this.statusLlamadas["total_llamadas"] = _jsonResponse["total_llamadas"];
